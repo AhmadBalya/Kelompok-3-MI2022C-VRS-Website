@@ -16,6 +16,7 @@ UNIVERSITAS NEGERI SURABAYA
 
 2023
 
+
 1. Tujuan
     Aplikasi Vehicle Rental Service (VRS) adalah aplikasi berbasis smartphone yang
 memungkinkan pengguna untuk menyewa kendaraan secara online. Tujuannya adalah untuk
