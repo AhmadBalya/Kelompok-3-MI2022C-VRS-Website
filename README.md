@@ -22,6 +22,6 @@ pelanggan dalam proses pemesanan.
 
 2. Lampiran 
     a. Flowchart website VRS
-    <img src="./gambar/FLOWCHARTVRS.png" width="650", height="400"/>
+
     b. Use case website VRS
-    <img src="./gambar/USE CASE DIAGRAM VRS (2).png" width="650", height="400"/>
+    
