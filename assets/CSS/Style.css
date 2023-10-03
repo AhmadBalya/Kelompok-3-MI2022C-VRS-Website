@@ -1,3 +1,92 @@
+/* Reset CSS */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: bisque;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Page Styles */
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 20px;
+}
+
+.sidebar nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+}
+
+.hero img {
+    width: 100px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+}
+
+.hero-content {
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer img {
+    width: 30px; /* Sesuaikan ukuran ikon sosial media sesuai kebutuhan */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        position: static;
+    }
+
+    .content {
+        margin-left: 0;
+    }
 }
