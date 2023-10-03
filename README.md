@@ -3,9 +3,10 @@
 LAPORAN TUGAS PEMROGRAMAN WEB SRS WEBSITE VEHICLE RENTAL SERVICE (VRS)
 
 Disusun oleh:
-1) Vanessa Aulia Syifa Y.   (22091397084)
-2) M. Badar Haula Abdi      (22091397085)
-3) Ahmad Balya Diwanullatif (22091397095)
+1) Vanessa Aulia Syifa Y.       (22091397084)
+2) M. Badar Haula Abdi          (22091397085)
+3) Ahmad Balya Diwanullatif     (22091397095)
+   
 
 PRODI D4 MANAJEMEN INFORMATIKA
 
