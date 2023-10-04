@@ -1,4 +1,8 @@
 /* Reset CSS */
+*html {
+    margin: 0;
+    padding: 0;
+}
 body,
 h1,
 h2,
@@ -9,21 +13,32 @@ li {
     padding: 0;
 }
 
+head {
+    background-color: bisque;
+    
+    
+}
 body {
-    font-family: 'Arial', sans-serif;
+    background-color: bisque;
+    font-family:'Times New Roman', Times, serif ;
+    
+    
+    
 }
 
 /* Page Styles */
 .sidebar {
-    background-color: #333;
-    color: #fff;
+    background-color: #2b2c2a;
+    color: #090000;
     width: 200px;
     height: 100vh;
     position: fixed;
+ 
 }
 
 .sidebar nav ul {
-    list-style: none;
+    list-style: disc;
+    color: aqua;
     padding: 20px;
 }
 
@@ -32,19 +47,22 @@ body {
     color: #fff;
 }
 
-.content {
+.content { 
+    
     margin-left: 220px;
     padding: 20px;
 }
 
+.img-content {
+    width: 300px;
+    height: 200px;
+} 
 .hero {
+    
     text-align: center;
     padding: 50px;
 }
 
-.hero img {
-    width: 100px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
-}
 
 .hero-content {
     margin-top: 20px;
@@ -76,7 +94,7 @@ body {
 }
 
 .footer img {
-    width: 30px; /* Sesuaikan ukuran ikon sosial media sesuai kebutuhan */
+    width: 40px; /* Sesuaikan ukuran ikon sosial media sesuai kebutuhan */
 }
 
 /* Responsive Styles */
