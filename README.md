@@ -29,6 +29,8 @@ pelanggan dalam proses pemesanan.
 3. Lampiran 
 
    a. Flowchart website VRS
-   
+   ![alt text](https://github.com/22091397095-AhmadBalyaDiwanullatifMIC22/Kelompok-3-MI2022C-VRS-Website/blob/master/assets/gambar/FLOWCHARTVRS.png?raw=true)
    b. Use case website VRS
+   ![alt text](https://github.com/22091397095-AhmadBalyaDiwanullatifMIC22/Kelompok-3-MI2022C-VRS-Website/blob/master/assets/gambar/USE%20CASE%20DIAGRAM%20VRS%20(2).png?raw=true)
+
    
