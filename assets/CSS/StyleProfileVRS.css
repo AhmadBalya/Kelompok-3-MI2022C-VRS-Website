@@ -1,72 +1,118 @@
+/* Reset CSS */
+*html {
+    margin: 0%;
+    padding: 0%;
+}
+body,
+h1,
+h2,
+p,
+ul,
+h1
 
-* {
+li {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-head {
-    background-color: tomato;
-}
 body {
-    font-family:'Times New Roman', Times, serif;
-   
+    background-color: bisque;
+    font-family: 'Arial', sans-serif;
 }
 
-.myDiv h3 {
-  position: static;
+/* Page Styles */
+.sidebar {
+    background-color: #1a1a19;
+    width: 150px;
+    height: 100vh;
+    position: fixed;
 }
 
-
-.myDiv {
-    border: 5px outset rgb(3, 3, 3);
-    background-color: rgb(255, 258, 196);
-    text-align: center;
-    padding: auto;
-
-}
-
-.containerform {
-    width: 280px;
-    margin: 20px auto;
+.sidebar nav ul {
+    list-style: disc;
     padding: 20px;
-    background-color:coral;
+    color :aqua;
+    font-family :'Times New Roman', Times, serif;
+    font-style: italic;
+    
 }
 
-form {
-    text-align: left;
+.sidebar nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.content {
+    font-size: large;
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.hero-content h1 {
     font-family: 'Times New Roman', Times, serif;
+    color: red;
+    font-size: 50px;
+    
 }
 
-label {
-    display: block;
-    margin-bottom: 10px;
+.hero-content h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: brown;
+}
+.hero {
+    text-align: center;
+    padding: 50px;
 }
 
-input[type="text"],
-input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
+.hero img {
+    width:  400px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+    
 }
 
-button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #4caf50;
+
+.hero-content button {
+    background-color: #e3cd3a;
     color: white;
-    border-radius: 5px;
-    cursor: pointer;
+    padding: 5px 5px;
+    text-align:justify;
+    display:inline-flex;
     font-size: 16px;
-    margin-top: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/* Style the image */
-.myDiv img {
-    width: 50%; /* Make sure the image takes 100% width of its container */
-    height: auto; /* Ensure the aspect ratio of the image is maintained */
+.footer {
+    background-color:chocolate;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;    
+}
+
+.footer ul {
+    list-style: circle;
+    display: flex;
+    justify-content:space-around;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    list-style-type: disc;;
+    color: aqua;
+}
+
+.footer img {
+    width: 40px; /* Sesuaikan ukuran ikon sosial media sesuai kebutuhan */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        position: static;
+    }
+
+    .content {
+        margin-left: 0;
+    }
 }
