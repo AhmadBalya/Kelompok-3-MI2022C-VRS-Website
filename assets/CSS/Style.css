@@ -1,30 +1,40 @@
 /* Reset CSS */
+*html {
+    margin: 0%;
+    padding: 0%;
+}
 body,
 h1,
 h2,
 p,
 ul,
+h1
+
 li {
     margin: 0;
     padding: 0;
 }
 
 body {
+    background-color: bisque;
     font-family: 'Arial', sans-serif;
 }
 
 /* Page Styles */
 .sidebar {
-    background-color: #333;
-    color: #fff;
-    width: 200px;
+    background-color: #1a1a19;
+    width: 150px;
     height: 100vh;
     position: fixed;
 }
 
 .sidebar nav ul {
-    list-style: none;
+    list-style: disc;
     padding: 20px;
+    color :aqua;
+    font-family :'Times New Roman', Times, serif;
+    font-style: italic;
+    
 }
 
 .sidebar nav a {
@@ -32,51 +42,75 @@ body {
     color: #fff;
 }
 
+
 .content {
+    font-size: large;
     margin-left: 220px;
     padding: 20px;
 }
 
+.hero-content h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    font-size: 50px;
+    
+}
+
+.hero-content h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: brown;
+}
 .hero {
     text-align: center;
     padding: 50px;
 }
 
 .hero img {
-    width: 100px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+    width:  400px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+    
 }
 
-.hero-content {
-    margin-top: 20px;
-}
 
-.button {
-    background-color: #4CAF50;
+.hero-content button {
+    background-color: #e3cd3a;
     color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+    padding: 5px 5px;
+    text-align:justify;
+    display:inline-flex;
     font-size: 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .footer {
-    background-color: #333;
+    background-color:chocolate;
     color: #fff;
     padding: 20px;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 100%;    
 }
 
 .footer ul {
-    list-style: none;
+    list-style: circle;
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    list-style-type: disc;;
+    color: aqua;
+    
+    
+
+
+    
+    
+
+
 }
 
 .footer img {
-    width: 30px; /* Sesuaikan ukuran ikon sosial media sesuai kebutuhan */
+    width: 40px; /* Sesuaikan ukuran ikon sosial media sesuai kebutuhan */
 }
 
 /* Responsive Styles */
