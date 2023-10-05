@@ -1,72 +1,70 @@
-
-* {
+/* Reset CSS */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-head {
-    background-color: tomato;
-}
 body {
-    font-family:'Times New Roman', Times, serif;
-   
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navigation Styles */
+.Nav {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(255, 258, 196);
+}
+
+.Nav img {
+    width: 200px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+    height: auto;
+}
+
+/* Content Styles */
+.myDiv {
+    border: 3px outset rgb(3, 3, 3);
+    background-color: rgb(255, 258, 196);
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.myDiv h2 {
+    color: #333;
 }
 
 .myDiv h3 {
-  position: static;
-}
-
-
-.myDiv {
-    border: 5px outset rgb(3, 3, 3);
-    background-color: rgb(255, 258, 196);
-    text-align: center;
-    padding: auto;
-
-}
-
-.containerform {
-    width: 280px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color:coral;
-}
-
-form {
-    text-align: left;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-label {
-    display: block;
-    margin-bottom: 10px;
-}
-
-input[type="text"],
-input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-}
-
-button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #4caf50;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
+    color: #666;
     margin-top: 10px;
 }
 
-/* Style the image */
-.myDiv img {
-    width: 50%; /* Make sure the image takes 100% width of its container */
-    height: auto; /* Ensure the aspect ratio of the image is maintained */
+/* Button Styles */
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .Nav img {
+        width: 150px; /* Sesuaikan ukuran gambar untuk tampilan layar kecil */
+    }
 }
