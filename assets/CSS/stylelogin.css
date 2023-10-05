@@ -5,9 +5,6 @@
     box-sizing: border-box;
 }
 
-head {
-    background-color: tomato;
-}
 body {
     font-family:'Times New Roman', Times, serif;
    
@@ -65,8 +62,8 @@ button {
     margin-top: 10px;
 }
 
-/* Style the image */
+
 .myDiv img {
-    width: 50%; /* Make sure the image takes 100% width of its container */
-    height: auto; /* Ensure the aspect ratio of the image is maintained */
+    width: 50%; 
+    height: auto; 
 }
