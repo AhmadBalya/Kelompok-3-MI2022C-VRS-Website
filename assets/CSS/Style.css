@@ -16,7 +16,6 @@ li {
 }
 
 body {
-    background-color: bisque;
     font-family: 'Arial', sans-serif;
     background-image: url('/assets/gambar/Sewa-Mobil-malang-jogja-magelang.png'); /* Ganti dengan path yang sesuai dengan gambar background Anda */
     background-size: cover;
@@ -38,7 +37,7 @@ body::before {
 
 /* Page Styles */
 .sidebar {
-    background-color: #1a1a19;
+    background-color: #0e2348;
     width: 95px;
     height: 100vh;
     position: fixed;
@@ -67,7 +66,7 @@ body::before {
 
 .hero-content h1 {
     font-family: 'Times New Roman', Times, serif;
-    color: red;
+    color: rgb(0, 0, 0);
     font-size: 50px;
     
 }
@@ -75,7 +74,7 @@ body::before {
 .hero-content h2 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
-    color: brown;
+    color: rgb(0, 0, 0);
 }
 .hero {
     text-align: center;
@@ -89,7 +88,7 @@ body::before {
 
 
 .hero-content button {
-    background-color: #e3cd3a;
+    background-color: #5f8eff;
     color: white;
     padding: 5px 5px;
     text-align:justify;
@@ -99,7 +98,7 @@ body::before {
 }
 
 .footer {
-    background-color:chocolate;
+    background-color:#33559e;
     color: #fff;
     height: 65px;
     padding: 20px;
@@ -136,7 +135,7 @@ body::before {
 
 /* Button styles */
 footer button {
-    background-color: #e3cd3a;
+    background-color: #5f8eff;
     color: rgb(160, 79, 79) ;
     padding: 5px 5px;
     font-size: 15px;
