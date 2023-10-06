@@ -117,3 +117,22 @@ body {
         margin-left: 0;
     }
 }
+
+/* Button styles */
+footer button {
+    background-color: #e3cd3a;
+    color: rgb(160, 79, 79) ;
+    padding: 5px 5px;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    }
+    
+    button a {
+        color: #070707;
+        text-decoration:underline;
+    }
+    
+    button:hover {
+        background-color: #1494ea;
+    }
