@@ -1,0 +1,94 @@
+/* Reset CSS */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Header Styles */
+h1, h2, h3 {
+    text-align: center;
+    margin-top: 20px;
+    color: #514b4b;
+}
+
+/* Content Styles */
+.myDiv {
+    border: 5px outset rgb(3, 3, 3);
+    background-color: rgb(255, 258, 196);
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.myDiv img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.myDiv p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.myDiv button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.myDiv button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.myDiv button:hover {
+    background-color: #45a049;
+}
+
+/* Button Styles */
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #555;
+}

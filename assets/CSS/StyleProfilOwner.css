@@ -1,65 +1,105 @@
-/* Reset CSS */
-body,
-h1,
-h2,
-h3,
-p,
-ul,
-li {
-    margin: 0;
-    padding: 0;
-}
-    body {
-            font-family :Arial, sans-serif;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-        }
-
-        h1, h2, h3 {
-            text-align: center;
-            color: #333;
-        }
-
-        .myDiv {
-            border: 3px solid #000;
-            background-color: #e0e935;
-            text-align: center;
-            padding: 20px;
-            margin: 20px auto;
-            width: 80%;
-            max-width: 400px;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        .myDiv img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 50%;
-        }
-
-        .text {
-            text-align: center;
-            margin: 20px;
-        }
-
-        button {
-            display: block;
-            margin: 20px auto;
-            padding: 10px 20px;
-            background-color: #333;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            text-decoration: none;
-        }
-
-        button a {
-            color: #fff;
-            text-decoration: none;
-        }
-
-        button:hover {
-            background-color: #555;
-        }
+/* CSS for Profile Owner Cards */
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover,
+  a:hover {
+    opacity: 0.7;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card h1 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  /* CSS for Additional Text */
+  .text {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .text h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .text p {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  /* CSS for Back Button */
+  button.back-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  button.back-button a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  button.back-button:hover {
+    background-color: #555;
+  }
+  

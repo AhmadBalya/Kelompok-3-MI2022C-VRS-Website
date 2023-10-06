@@ -1,43 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <body>
-        <link rel="stylesheet" href="Style.css"/>
-    <style>
-        .myDiv {
-            border: 3px outset rgb(0, 0, 0);
-            background-color: rgb(224, 233, 53);
-            text-align: center;
-        }
-        .text{
-            text-align: center;
-        }
-    </style>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./gambar/VRS.jpg">
-    <title>Profile Owner</title>
-    
+<link rel="stylesheet" href="ProfileOwnerstyle.css">
+<style>
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 20px;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+</style>
 </head>
 <body>
-    <h1>Selamat Datang!</h1>
-    <h2>Di Menu Profile Owner Kami</h2>
-    <div class="myDiv">
-        <img src="./gambar/vanesfix.jpg" width="300", height="300"/> 
-        <h3>VANESSA AULIA SYIFA YUDIASMARA</h3>
-        <img src="./gambar/abdi.jpg" width="300", height="300"/> 
-        <h3>M. BADAR HAULA ABDI</h3>
-        <img src="./gambar/balya.jpg" width="300", height="300"/> 
-        <h3>AHMAD BALYA DIWANULLATIF</h3>
-    </div>   
+
+<h1 style="text-align:center">Owner Profile Cards</h1>
+
+<div class="card-container">
+  <div class="card">
+    <img src="./gambar/abdifix.jpg" alt="John" style="width:100%">
+    <h1>M. Badar Haula Abdi</h1>
+    <p class="title">CEO & Founder</p>
+    <p>Universitas Negeri Surabaya</p>
+    <p><button>Contact</button></p>
+  </div>
+
+  <div class="card">
+    <img src="./gambar/vanesfix.jpg" alt="Jane" style="width:100%">
+    <h1>Vanessa Yudiasmara</h1>
+    <p class="title">CEO & Founder</p>
+    <p>Universitas Negeri Surabaya</p>
+    <p><button>Contact</button></p>
+  </div>
+
+  <div class="card">
+    <img src="./gambar/balya.jpg" alt="Bob" style="width:100%">
+    <h1>Ahmad Balya Diwanullatif</h1>
+    <p class="title">CEO & Founder</p>
+    <p>Universitas Negeri Surabaya</p>
+    <p><button>Contact</button></p>
+  </div>
+</div>
 <body>
     <div class="text">
-        <H2>Website ini dikembangkan oleh 3 orang</H2>
-        <h3>Abdi, Balya, dan Vanessa </h3>
-        
-     
-          
-
+        <H2>Kami berkomitmen untuk memberikan layanan yang terbaik kepada pelanggan kami. Jika Anda memiliki pertanyaan atau memerlukan bantuan, jangan ragu untuk menghubungi kami. 
+            <p>Terima kasih atas dukungan Anda dalam menggunakan layanan persewaan kendaraan kami.</H2>
+            </p> 
+            <h3> 
+        </h3>
     </div>
 </body>
     <button><a href="../index.html">Back</a></button>
