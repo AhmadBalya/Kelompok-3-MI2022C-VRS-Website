@@ -1,27 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="/assets/CSS/StyleKontakVRS.css"/>
-    <body>
-        
-<style>
-    .myDiv {
-        border: 5px outset rgb(3, 3, 3);
-        text-align: center;
-    }
-</style>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontak VRS</title>
-    <link rel="shortcut icon" href="gambar/VRS.jpg">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="./CSS/StyleKontakVRS.css">
 </head>
 
 <body>
-    <div class="myDiv">
-        <img src="./gambar/VRS.jpg" width="650", height="400"/> 
-        <p>Hubungi kami via Whatsapp :<button><a href="https://api.whatsapp.com/send?phone=6281334712470">081334712470</a></button>
+    <div class="container">
+
+        <div class="card-container">
+        <div class="left">
+            <div class="left-container">
+                <img src="./gambar/VRS.jpg" width="250" height="150" />
+                <h2>Vehicle Rental Service</h2>
+                <p>Hubungi kami via Whatsapp :<button class="whatsapp-button"><a href="https://api.whatsapp.com/send?phone=6281334712470">081334712470</a></button></p>
+                <button class="back-button"><a href="../index.html">Back</a></button>
+            </div>
+            </div>
+            <div class="right">
+                <div class="right-container">
+                    <form action="">
+                        <h2 class="lg-view">Hubungi Kami</h2>
+                        <h2 class="sm-view">Hubungi Kami</h2>
+                        <input type="text" placeholder="Nama">
+                        <input type="email" placeholder="Alamat Email">
+                        <input type="text" placeholder="Perusahaan" autocomplete="off">
+                        <input type="phone" placeholder="Telepon" autocomplete="off">
+                        <textarea rows="10" placeholder="Pesan"></textarea>
+                        <button>Kirim</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
     </div>
-    <button><a href="../index.html">Back</a></button>
 </body>
+
 </html>
