@@ -4,7 +4,7 @@
 }
 
 body {
-    background: #007a8d;
+    background: #b3b3b3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +35,7 @@ body {
 .left {
     flex: 1;
     height: 480px;
-    background-color: #00b4cf;
+    background-color: #13474f;
 }
 
 .right {
@@ -64,7 +64,7 @@ body {
 }
 
 .left p {
-    font-size: 14px;
+    font-size: 16px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -97,8 +97,8 @@ textarea:focus {
 
 button {
     border-radius: 20px;
-    border: 1px solid #00b4cf;
-    background-color: #00b4cf;
+    border: 1px solid #13474f;
+    background-color: #13474f;
     color: #ffffff;
     font-size: 12px;
     font-weight: bold;
