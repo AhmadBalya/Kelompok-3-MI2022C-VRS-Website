@@ -11,7 +11,7 @@
     margin: 20px;
     text-align: center;
     font-family: Arial, sans-serif;
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 5px;
   }
@@ -27,7 +27,7 @@
     outline: 0;
     display: inline-block;
     padding: 8px;
-    color: white;
+    color: rgb(255, 255, 255);
     background-color: #000;
     text-align: center;
     cursor: pointer;
@@ -59,7 +59,7 @@
   }
   
   .card p {
-    font-size: 16px;
+    font-size: 14px;
     color: #666;
     margin-top: 5px;
   }
@@ -72,12 +72,12 @@
   
   .text h2, h3 {
     font-size: 24px;
-    color: #333;
+    color: #000000;
     text-align: center;
   }
   
   .text p {
-    font-size: 16px;
+    font-size: 20px;
     color: #4e4d4d;
     margin-top: 10px;
   }
@@ -88,7 +88,7 @@
     margin: 20px auto;
     padding: 10px 20px;
     background-color: #000000;
-    color: #fff;
+    color: #ffffff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -96,7 +96,7 @@
   }
   
   button.back-button a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
   }
   
