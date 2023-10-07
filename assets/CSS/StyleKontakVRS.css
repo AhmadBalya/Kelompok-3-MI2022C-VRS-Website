@@ -1,94 +1,134 @@
-/* Reset CSS */
-body,
-h1,
-h2,
-h3,
-p,
-ul,
-li {
+* {
+    box-sizing: border-box;
     margin: 0;
-    padding: 0;
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f7f7f7;
-    color: #333;
+    background: #007a8d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    height: 100vh;
+    margin: -20px 0 50px;
+    padding: 10px;
 }
 
-/* Header Styles */
-h1, h2, h3 {
+.container {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 522px;
+    min-width: 370px;
+}
+
+.card-container {
+    display: flex;
+}
+
+.left {
+    flex: 1;
+    height: 480px;
+    background-color: #00b4cf;
+}
+
+.right {
+    display: flex;
+    flex: 1;
+    height: 460px;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    flex: 1;
+    height: 522px;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+
+.left-container {
+    height: 50%;
+    width: 80%;
     text-align: center;
-    margin-top: 20px;
-    color: #514b4b;
+    line-height: 22px
 }
 
-/* Content Styles */
-.myDiv {
-    border: 5px outset rgb(3, 3, 3);
-    background-color: rgb(255, 258, 196);
+.left p {
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.right-container {
+    width: 70%;
+    height: 80%;
     text-align: center;
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 800px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.myDiv img {
+input,
+textarea {
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
     width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    font-size: 14px;
 }
 
-.myDiv p {
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 20px;
+input:focus,
+textarea:focus {
+    outline: 1px solid #00b4cf;
 }
 
-.myDiv button {
-    background-color: #4CAF50;
-    color: #fff;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.myDiv button a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.myDiv button:hover {
-    background-color: #45a049;
-}
-
-/* Button Styles */
 button {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-top: 20px;
+    border-radius: 20px;
+    border: 1px solid #00b4cf;
+    background-color: #00b4cf;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-out;
     cursor: pointer;
-    border: none;
-    border-radius: 5px;
-}
-
-button a {
-    color: #fff;
-    text-decoration: none;
 }
 
 button:hover {
-    background-color: #555;
+    opacity: 0.7;
+}
+
+textarea {
+    height: 90px;
+}
+/* responsive */
+
+@media only screen and (max-width: 600px){
+    .left {
+        display: none;
+    }
+
+    .lg-view {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .sm-view {
+        display: none;
+    }
 }
