@@ -70,14 +70,15 @@
     margin: 20px;
   }
   
-  .text h2 {
+  .text h2, h3 {
     font-size: 24px;
     color: #333;
+    text-align: center;
   }
   
   .text p {
     font-size: 16px;
-    color: #666;
+    color: #4e4d4d;
     margin-top: 10px;
   }
   
