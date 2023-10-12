@@ -15,8 +15,27 @@ li {
     padding: 0;
 }
 
+.header {
+    background-color: #5f8eff;
+    height: 65px;
+    top: 0;
+    width: 100%;
+    display: flex;   
+    position: fixed;
+    align-content: center;
+}
+
+.header ul {
+    background-color: #5f8eff;
+    position: fixed;
+    top: 20px;
+    left: 25px;
+    list-style: none;
+    display: flex;
+    color: aqua;
+}
+
 body {
-    
     background-image: url('/assets/gambar/Sewa-Mobil-malang-jogja-magelang.png'); 
     background-size: cover;
     background-position: center;
@@ -26,7 +45,7 @@ body {
 
 body::before {
     content: "";
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -62,7 +81,7 @@ body::before {
 
 .content {
     font-size: large;
-    margin-left: 220px;
+    left: 50%;
     padding: 20px;
 }
 
@@ -87,7 +106,6 @@ body::before {
     width:  500px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
     
 }
-
 
 .hero-content button {
     background-color: #5f8eff;
