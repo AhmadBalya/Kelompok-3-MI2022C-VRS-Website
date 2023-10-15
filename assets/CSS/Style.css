@@ -490,7 +490,6 @@ button:hover, a:hover {
  opacity: 0.7;
 }
 
-<<<<<<< HEAD
 /*Style CSS KOntak VRS */
 
 body {
@@ -623,68 +622,3 @@ textarea {
         display: none;
     }
 }
-=======
-.card img{
-    max-width: 90%;
-    height: auto;
-    margin-top: 5%;
-}
-
-.card h1 {
-    font-size: 24px;
-    color: #ffffff;
-    margin-top: 10px;
-  }
-  
-  .card p {
-    font-size: 14px;
-    color: #fffbfb;
-    margin-top: 10px;
-  }
-  
-  /* CSS for Additional Text */
-  .text {
-    text-align: center;
-    margin: 20px;
-  }
-
-  h1{
-    font-size: 36px;
-    color: #fcfcfc;
-    text-align: center;
-  }
-  .text h2, h3 {
-    font-size: 24px;
-    color: #ffffff;
-    text-align: center;
-  }
-  
-  .text p {
-    font-size: 20px;
-    color: #ffffff;
-    margin-top: 10px;
-  }
-  
-  /* CSS for Back Button */
-  button.back-button {
-    
-    display: block;
-    margin: 20px auto;
-    padding: 10px 20px;
-    background-color: #fffefe;
-    color: #802929;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-  }
-  
-  button.back-button a {
-    color: #fcfcfc;
-    text-decoration: none;
-  }
-  
-  button.back-button:hover {
-    background-color: #ffffff;
-  }
->>>>>>> aebb6f214965504828c4cd6f946e5a4ca7c8db20
