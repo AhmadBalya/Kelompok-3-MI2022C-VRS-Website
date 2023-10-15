@@ -1,38 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/CSS/StyleRegister.css"/>
-    <title>Register</title>
-    
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title> 
+    <link rel="stylesheet" href="./assets/CSS/Style.css">
+    <link rel="shorcut icon" href="./assets/gambar/VRS.jpg" type="image/x-icon">
+  </head>
+<div class="header">
+  <header>
+    <main class="content">
+            <button><a href="ProfileVRS.html">Profile</a></button>
+            <button><a href="TentangVRS.html">Tentang</a></button>
+            <button><a href="KontakVRS.html">Kontak</a></button>
+            <button><a href="ProfileOwner.html" class="action-btn">Profile Owner</a></button>
+    </main>
+  </header>
+</div>
 <body>
-    <div class="container">
+  <div class="body-register">
+    <div class="container-register">
         <h2>Formulir Registrasi Pengguna</h2>
         <form action="/submit_registration" method="post">
-            <div class="form-group">
+            <div class="form-groupregister">
                 <label for="username">Nama :</label>
                 <input type="text" id="username" name="username" required>
             </div>
-            <div class="form-group">
+            <div class="form-groupregister">
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
             </div>
-            <div class="form-group">
+            <div class="form-groupregister">
                 <label for="password">Password:</label>
                 <input type="password" id="password" name="password" required>
             </div>
-            <div class="form-group">
+            <div class="form-groupregister">
                 <label for="confirm-password">Confirm Password:</label>
                 <input type="password" id="confirm-password" name="confirm-password" required>
             </div>
-            <div class="form-group">
+            <div class="form-group-register">
                 <button type="submit">Register</button>
                 <button><a href="../index.html"> Back </a></button>
             </div>
         </form>
+    </div>
     </div>
 </body>
 

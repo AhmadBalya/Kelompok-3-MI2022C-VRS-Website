@@ -23,6 +23,7 @@ li {
     display: flex;   
     position: fixed;
     align-content: center;
+    z-index: 9;
 }
 
 .header ul {
@@ -53,6 +54,7 @@ body::before {
     background-color: rgba(255, 255, 255, 0.5); /* Warna latar belakang dengan tingkat transparansi */
     z-index: -1; /* Letakkan di belakang konten utama */
 }
+
 
 /* Page Styles */
 .sidebar {
@@ -170,3 +172,155 @@ footer button {
     button:hover {
         background-color: #1494ea;
     }
+
+/*
+Style untuk register
+*/
+.body-register {
+    background-image: url('/assets/gambar/blackcar.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding-top: 65px; /* Tinggi header Anda (dalam contoh ini 65px) */
+    box-sizing: border-box; /* Memastikan padding tidak meningkatkan tinggi elemen */
+    z-index: 1;
+    
+}
+
+
+.container-register {
+    background-color: #94CEFF;
+    font-variant: small-caps;
+    padding: 40px;
+    border-radius: 11px;
+    box-shadow: 10 20 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    position: relative; 
+    
+    }
+
+
+.container-register h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-groupregister{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.form-groupregister label {
+    display: block;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-groupregister input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #171951;
+    border-radius: 5px;
+}
+
+.form-groupregister button {
+    background-color: #4caf50;
+    color: #000000;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 1.0s ease;
+}
+
+.form-groupregister button:hover {
+    background-color: #4559a0;
+}
+
+/*
+Style Untuk Login
+*/
+
+.body-login {
+    background-image: url('/assets/gambar/carlogin.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding-top: 65px; /* Tinggi header Anda (dalam contoh ini 65px) */
+    box-sizing: border-box; /* Memastikan padding tidak meningkatkan tinggi elemen */
+    z-index: 1;
+}    
+.container-login {
+    background-color :aquamarine;
+    font-variant: small-caps;
+    padding: 40px;
+    border-radius: 11px;
+    box-shadow: 10 20 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    position: relative; 
+    
+    }
+
+
+.container-login h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-grouplogin{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.form-grouplogin label {
+    display: block;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-grouplogin input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #171951;
+    border-radius: 5px;
+}
+
+.form-grouplogin button {
+    background-color: #4caf50;
+    color: #000000;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 1.0s ease;
+}
+
+.form-grouplogin button:hover {
+    background-color: #4559a0;
+}

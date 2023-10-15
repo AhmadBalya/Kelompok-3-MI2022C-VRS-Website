@@ -1,35 +1,44 @@
-</html><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Login</title>
-  <link rel="stylesheet" href="./CSS/stylelogin.css">
-    <body>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="gambar/VRS.jpg">
-    <title>Kontak VRS</title>   
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title> 
+    <link rel="stylesheet" href="./assets/CSS/Style.css">
+    <link rel="shorcut icon" href="./assets/gambar/VRS.jpg" type="image/x-icon">
+  </head>
+<div class="header">
+  <header>
+    <main class="content">
+            <button><a href="ProfileVRS.html">Profile</a></button>
+            <button><a href="TentangVRS.html">Tentang</a></button>
+            <button><a href="KontakVRS.html">Kontak</a></button>
+            <button><a href="ProfileOwner.html" class="action-btn">Profile Owner</a></button>
+    </main>
+  </header>
+</div>
 <body>
-    <div class="myDiv">
-        <img src="./assets/gambar/VRS.jpg" width="", height="400"/> 
-        <div class="containerform">
-            <form>
-             <h3>MENU LOGIN</h3> 
-              <label for="email">E-mail :</label>
-              <input
-                type="text"
-                name="email"
-                id="email"
-                style="background-color: #a85f5f69"
-              />
-              <br />
-              <label for="password">Password :</label>
-              <input
-                type="password"
-                name="password"
-                id="password"
-                style="background-color: #a85f5f69"
-              />
-            </form>
+  <div class="body-login">
+    <div class="container-login">
+        <h2>Login User</h2>
+        <form action="/submit_registration" method="post">
+            <div class="form-grouplogin">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-grouplogin">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-grouplogin">
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <div class="form-grouplogin">
+                <button type="submit">Login</button>
+                <button><a href="../index.html"> Back </a></button>
+            </div>
+        </form>
     </div>
-    <button><a href="../index.html"> Halaman Utama</a></button>\
+    </div>
+</body>
