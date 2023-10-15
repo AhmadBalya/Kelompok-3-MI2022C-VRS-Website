@@ -9,8 +9,12 @@ body {
   }
   
   /* Header/Logo Title */
+  .header{
+    padding: 25px;
+    text-align: left;
+  }
   .hero {
-    padding: 35px;
+    padding: 25px;
     text-align: center;
     background: #8ba19d;
     color: white;
