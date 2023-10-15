@@ -1,80 +1,47 @@
-/* Reset default margin and padding for all elements */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Body styles */
+/* Reset some default styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color:  bisque;
-    padding: 20px;
-}
-
-/* Header styles */
-h1 {
-    text-align: center;
-    color: black;
-    margin-bottom: 5px;
-    font-family: 'Times New Roman', Times, serif;
-    background-color:chocolate;
-}
-
-/* Container styles */
-.myDiv {
-    border: 5px solid #3498db;
-    background-color: #fff;
-    text-align: center;
-    padding: 20px;
-    margin-top: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(243, 21, 21, 0.1);
-}
-
-/* Image styles */
-.myDiv img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    margin-bottom: 20px;
-    
-    
-}
-
-/* Heading styles */
-.myDiv h4 {
-    color: #3498db;
-    font-size: 24px;
-    margin-bottom: 10px;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: oblique;
+    margin: 0;
+  }
   
-}
-
-/* Paragraph styles */
-.myDiv p {
-    color: #333;
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 20px;
-}
-
-/* Button styles */
-button {
-background-color: #e3cd3a;
-color: black ;
-padding: 10px 20px;
-font-size: 20px;
-margin-top: 10px;
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-button a {
-    color: #fff;
+  /* Style the body */
+  body {
+    font-family: Arial;
+  }
+  
+  /* Header/Logo Title */
+  .hero {
+    padding: 35px;
+    text-align: center;
+    background: #8ba19d;
+    color: white;
+    font-size: 24px;
+  }
+  
+  /* Page Content */
+  .content {
+    padding: 20px;
+    font-size: 22px;
+    text-align: center;
+  }
+  
+   /* CSS for Back Button */
+   button.back-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #802929;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
     text-decoration: none;
-}
-
-button:hover {
-    background-color: #2980b9;
-}
+  }
+  
+  button.back-button a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  button.back-button:hover {
+    background-color: #ffffff;
+  }
