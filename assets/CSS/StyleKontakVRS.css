@@ -1,10 +1,4 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-}
-
 body {
-    background-image: url(../gambar/mobilhd.png);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,56 +10,61 @@ body {
     padding: 10px;
 }
 
-.container {
+.containerc {
     background-color: #000000;
     border-radius: 5px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     position: relative;
     overflow: hidden;
-    width: 768px;
+    width: 769px;
     max-width: 100%;
     min-height: 522px;
     min-width: 370px;
 }
 
-.card-container {
-    display: flex;
+.card-containerc {
+    display:flex;
+    position: relative;
+    
 }
 
-.left {
+
+.leftc {
     flex: 1;
     height: 480px;
-    background-color: #000000;
+    background-color: #020000;
+    
 }
 
-.right {
+.rightc {
     display: flex;
     flex: 1;
-    height: 460px;
-    background-color: #ffffff;
+    height: 570px;
+    background-color: #bcbbb1;
     justify-content: center;
-    align-items: center;
+
 }
 
-.left {
+.leftc {
     display: flex;
     flex: 1;
     height: 522px;
     justify-content: center;
     align-items: center;
-    color: #ffffff;
+    color: #8c4545;
 }
 
 
-.left-container {
-    height: 50%;
+.left-containerc {
+    height: 70%;
     width: 80%;
     text-align: center;
-    line-height: 26px
+    line-height: 21px
+    
 }
 
-.left p {
-    font-size: 14px;
+.leftc p {
+    font-size: 12px;
 }
 
 h2 {
@@ -73,31 +72,28 @@ h2 {
     margin-bottom: 12px;
 }
 
-.right-container {
+.right-containerc {
     width: 90%;
     height: 80%;
+    padding-right:20px ;
     text-align: center;
 }
 
 input,
 textarea {
-    background-color: #eee;
-    border: none;
-    padding: 12px 15px;
+    background-color: #d3646449;
+    border: 1px solid;
+    padding: 12px 2px;
     margin: 8px 0;
     width: 100%;
-    font-size: 12px;
-}
-
-input:focus,
-textarea:focus {
-    outline: 1px solid #ffffff;
+    font-size: 13px;
+    border-radius: 10px;
 }
 
 button {
     border-radius: 20px;
     border: 1px solid #00000000;
-    background-color: #000000c3;
+    background-color: #332020c3;
     color: #ffffff;
     font-size: 12px;
     font-weight: bold;
@@ -118,17 +114,17 @@ textarea {
 /* responsive */
 
 @media only screen and (max-width: 600px){
-    .left {
+    .leftc {
         display: none;
     }
 
-    .lg-view {
+    .lg-viewc {
         display: none;
     }
 }
 
 @media only screen and (min-width: 600px) {
-    .sm-view {
+    .sm-viewc {
         display: none;
     }
 }
