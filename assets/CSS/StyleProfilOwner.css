@@ -5,19 +5,23 @@
     align-items: center;
   }
   
+  h1{
+    color: #ffffff;
+    text-align: center;
+  }
   .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
     max-width: 300px;
     margin: 20px;
     text-align: center;
     font-family: Arial, sans-serif;
-    background-color: #ffffff;
+    background-color: #010101;
     padding: 20px;
     border-radius: 5px;
   }
   
   .title {
-    color: rgb(14, 14, 14);
+    color: rgb(255, 255, 255);
     font-size: 18px;
     margin-top: 10px;
   }
@@ -27,8 +31,8 @@
     outline: 0;
     display: inline-block;
     padding: 8px;
-    color: rgb(133, 69, 69);
-    background-color: #ff7200;
+    color: rgb(243, 243, 243);
+    background-color: #ffffff;
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -39,7 +43,7 @@
   a {
     text-decoration: none;
     font-size: 22px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 249, 249);
   }
   
   button:hover,
@@ -54,13 +58,13 @@
   
   .card h1 {
     font-size: 24px;
-    color: #333;
+    color: #ffffff;
     margin-top: 10px;
   }
   
   .card p {
     font-size: 14px;
-    color: #666;
+    color: #fffbfb;
     margin-top: 5px;
   }
   
@@ -68,26 +72,28 @@
   .text {
     text-align: center;
     margin: 20px;
+   
   }
   
   .text h2, h3 {
     font-size: 24px;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
   }
   
   .text p {
     font-size: 20px;
-    color: #4e4d4d;
+    color: #ffffff;
     margin-top: 10px;
   }
   
   /* CSS for Back Button */
   button.back-button {
+    
     display: block;
     margin: 20px auto;
     padding: 10px 20px;
-    background-color: #000000;
+    background-color: #fffefe;
     color: #802929;
     border: none;
     border-radius: 5px;
@@ -96,7 +102,7 @@
   }
   
   button.back-button a {
-    color: #ffffff;
+    color: #fcfcfc;
     text-decoration: none;
   }
   
