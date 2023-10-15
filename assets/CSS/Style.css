@@ -443,7 +443,7 @@ Style Untuk Login
 
 /*Style Css Profile Owner*/
 body{
-  background-image: url(/assets/gambar/mobilhd.png);
+  background-image: url(../gambar/mobilhd.png);
  }
 
 .card-container {
@@ -453,17 +453,17 @@ body{
 }
 
 .card {
- box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
  max-width: 300px;
- margin: 20px;
+ margin: auto;
  text-align: center;
- font-family: arial;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .title {
  color: rgb(255, 255, 255);
- font-size: 18px;
- margin-top: 10px;
+ font-size: 20px;
+ margin-top: 18px;
 }
 
 button {
@@ -471,17 +471,18 @@ button {
  outline: 0;
  display: inline-block;
  padding: 8px;
- color: rgb(244, 235, 235);
+ color: rgb(255, 255, 255);
  background-color: #ff7200;
  text-align: center;
  cursor: pointer;
  width: 100%;
- font-size: 18px;
+ font-size: 8px;
+ border-radius: 5px;
 }
 
 a {
  text-decoration: none;
- font-size: 22px;
+ font-size: 27px;
  color: rgb(255, 255, 255);
 }
 
@@ -489,6 +490,7 @@ button:hover, a:hover {
  opacity: 0.7;
 }
 
+<<<<<<< HEAD
 /*Style CSS KOntak VRS */
 
 body {
@@ -621,3 +623,68 @@ textarea {
         display: none;
     }
 }
+=======
+.card img{
+    max-width: 90%;
+    height: auto;
+    margin-top: 5%;
+}
+
+.card h1 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: 10px;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #fffbfb;
+    margin-top: 10px;
+  }
+  
+  /* CSS for Additional Text */
+  .text {
+    text-align: center;
+    margin: 20px;
+  }
+
+  h1{
+    font-size: 36px;
+    color: #fcfcfc;
+    text-align: center;
+  }
+  .text h2, h3 {
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .text p {
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 10px;
+  }
+  
+  /* CSS for Back Button */
+  button.back-button {
+    
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #fffefe;
+    color: #802929;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  button.back-button a {
+    color: #fcfcfc;
+    text-decoration: none;
+  }
+  
+  button.back-button:hover {
+    background-color: #ffffff;
+  }
+>>>>>>> aebb6f214965504828c4cd6f946e5a4ca7c8db20
