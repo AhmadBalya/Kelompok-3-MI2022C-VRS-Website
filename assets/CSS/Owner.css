@@ -1,4 +1,7 @@
 /* CSS for Profile Owner Cards */
+body{
+    background-image: url(../gambar/mobilhd.png);
+}
 .card-container {
     display: flex;
     justify-content: space-around;
@@ -34,13 +37,13 @@
   
   h1{
     font-size: 36px;
-    color: #000;
+    color: #ffffff;
     text-align: center;
   }
   a {
     text-decoration: none;
     font-size: 22px;
-    color: black;
+    color: rgb(255, 255, 255);
   }
   
   button:hover, a:hover {
@@ -72,12 +75,12 @@
     
     .text h2 {
       font-size: 24px;
-      color: #333;
+      color: #ffffff;
     }
     
     .text p {
       font-size: 16px;
-      color: #636161;
+      color: #ffffff;
       margin-top: 10px;
     }
     
