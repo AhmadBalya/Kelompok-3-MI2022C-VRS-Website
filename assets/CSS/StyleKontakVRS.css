@@ -4,7 +4,7 @@
 }
 
 body {
-    background: #afbcbe;
+    background-image: url(../gambar/mobilhd.png);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-    background-color: #ffffff;
+    background-color: #000000;
     border-radius: 5px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     position: relative;
@@ -35,7 +35,7 @@ body {
 .left {
     flex: 1;
     height: 480px;
-    background-color: #7e9b9f;
+    background-color: #000000;
 }
 
 .right {
@@ -74,7 +74,7 @@ h2 {
 }
 
 .right-container {
-    width: 70%;
+    width: 90%;
     height: 80%;
     text-align: center;
 }
@@ -96,8 +96,8 @@ textarea:focus {
 
 button {
     border-radius: 20px;
-    border: 1px solid #7e9b9f;
-    background-color: #7e9b9f;
+    border: 1px solid #00000000;
+    background-color: #000000c3;
     color: #ffffff;
     font-size: 12px;
     font-weight: bold;
