@@ -3,30 +3,9 @@
     margin: 0;
     padding: 0;
 }
-.header {
-    background-color: #5f8eff;
-    height: 65px;
-    top: 0;
-    width: 100%;
-    display: flex;   
-    position: fixed;
-    align-content: center;
-    z-index: 9;
-}
-
-.header ul {
-    background-color: #5f8eff;
-    position: fixed;
-    top: 20px;
-    left: 25px;
-    list-style: none;
-    display: flex;
-    color: aqua;
-
-}
 .main{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url('/Kelompok-3-MI2022C-VRS-Website/assets/gambar/mobilhd.png');
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url('/assets/gambar/mobilhd.png');
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -459,4 +438,52 @@ Style Untuk Login
 
 .form-grouplogin button:hover {
     background-color: #4559a0;
+}
+
+/*Style Css Profile Owner*/
+body{
+  background-image: url(/assets/gambar/mobilhd.png);
+ }
+
+.card-container {
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+
+.card {
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ max-width: 300px;
+ margin: 20px;
+ text-align: center;
+ font-family: arial;
+}
+
+.title {
+ color: rgb(255, 255, 255);
+ font-size: 18px;
+ margin-top: 10px;
+}
+
+button {
+ border: none;
+ outline: 0;
+ display: inline-block;
+ padding: 8px;
+ color: rgb(244, 235, 235);
+ background-color: #ff7200;
+ text-align: center;
+ cursor: pointer;
+ width: 100%;
+ font-size: 18px;
+}
+
+a {
+ text-decoration: none;
+ font-size: 22px;
+ color: rgb(255, 255, 255);
+}
+
+button:hover, a:hover {
+ opacity: 0.7;
 }
