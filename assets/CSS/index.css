@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-.main{
+.main-header{
     width: 100%;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url('/assets/gambar/mobilhd.png');
     background-position: center;
@@ -10,19 +10,19 @@
     height: 100vh;
 }
 
-.navbar{
+.navbar-header{
     width: 1200px;
     height: 75px;
     margin: auto;
 }
 
-.icon{
+.icon-header{
     width: 200px;
     float: left;
     height: 70px;
 }
 
-.logo{
+.logo-header{
     color: #ff7200;
     font-size: 35px;
     font-family: Arial;
@@ -32,7 +32,7 @@
     margin-top: 5px
 }
 
-.menu{
+.menu-header{
     width: 400px;
     float: left;
     height: 70px;
@@ -112,7 +112,7 @@ ul li a:hover{
     outline: none;
 }
 
-.content{
+.content-header{
     width: 1200px;
     height: auto;
     margin: auto;
@@ -120,7 +120,7 @@ ul li a:hover{
     position: relative;
 }
 
-.content .par{
+.content-header .par-header{
     padding-left: 20px;
     padding-bottom: 25px;
     font-family: Arial;
@@ -128,7 +128,7 @@ ul li a:hover{
     line-height: 30px;
 }
 
-.content h1{
+.content-header h1{
     font-family: 'Times New Roman';
     font-size: 70px;
     padding-left: 20px;
@@ -136,7 +136,7 @@ ul li a:hover{
     letter-spacing: 2px;
 }
 
-.content .cn{
+.content-header .cn{
     width: 160px;
     height: 40px;
     background: #ff7200;
@@ -150,7 +150,7 @@ ul li a:hover{
     
 }
 
-.content .cn a{
+.content-header .cn a{
     text-decoration: none;
     color: #000;
     transition: .3s ease;
@@ -160,12 +160,12 @@ ul li a:hover{
     background-color: #fff;
 }
 
-.content span{
+.content-header span{
     color: #ff7200;
     font-size: 65px
 }
 
-.form{
+.form-header{
     width: 250px;
     height: 190px;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
@@ -177,7 +177,7 @@ ul li a:hover{
     padding: 25px;
 }
 
-.form h2{
+.form-header h2{
     width: 220px;
     font-family: sans-serif;
     text-align: center;
@@ -189,7 +189,7 @@ ul li a:hover{
     padding: 8px;
 }
 
-.form input{
+.form-header input{
     width: 240px;
     height: 35px;
     background: transparent;
@@ -204,7 +204,7 @@ ul li a:hover{
     font-family: sans-serif;
 }
 
-.form input:focus{
+.form-header input:focus{
     outline: none;
 }
 
@@ -213,7 +213,7 @@ ul li a:hover{
     font-family: Arial;
 }
 
-.btnn{
+.btnn-header{
     width: 240px;
     height: 40px;
     background: #ff7200;
@@ -225,22 +225,22 @@ ul li a:hover{
     color: #fff;
     transition: 0.4s ease;
 }
-.btnn:hover{
+.btnn-header:hover{
     background: #fff;
     color: #ff7200;
 }
-.btnn a{
+.btnn-header a{
     text-decoration: none;
     color: #000;
     font-weight: bold;
 }
-.form .link{
+.form-header .link{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     padding-top: 20px;
     text-align: center;
 }
-.form .link a{
+.form-header .link a{
     text-decoration: none;
     color: #ff7200;
 }
@@ -249,18 +249,18 @@ ul li a:hover{
     padding-bottom: 10px;
     text-align: center;
 }
-.icons a{
+.icons-header a{
     text-decoration: none;
     color: #fff;
 }
-.icons ion-icon{
+.icons-header ion-icon{
     color: #fff;
     font-size: 30px;
     padding-left: 14px;
     padding-top: 5px;
     transition: 0.3s ease;
 }
-.icons ion-icon:hover{
+.icons-header ion-icon:hover{
     color: #ff7200;
 }
 
