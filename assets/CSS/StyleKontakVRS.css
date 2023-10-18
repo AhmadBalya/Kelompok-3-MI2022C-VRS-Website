@@ -8,14 +8,15 @@ body {
     height: 100vh;
     margin: -20px 0 50px;
     padding: 10px;
+    background-image: url('/assets/gambar/mobilhd.png');
 }
 
 .containerc {
     background-color: #000000;
     border-radius: 5px;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 14px 28px rgba(235, 226, 226, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     position: relative;
-    overflow: hidden;
+    overflow:visible;
     width: 769px;
     max-width: 100%;
     min-height: 522px;
@@ -32,7 +33,7 @@ body {
 .leftc {
     flex: 1;
     height: 480px;
-    background-color: #020000;
+    background-color: #bcbbb1;
     
 }
 
