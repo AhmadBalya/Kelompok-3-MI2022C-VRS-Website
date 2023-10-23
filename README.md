@@ -111,6 +111,7 @@ Fungsi-fungsi ini membantu menciptakan pengalaman yang lebih baik bagi pelanggan
 
 
 2.3 Penggolongan Karakteristik Pengguna
+![image](https://github.com/22091397095-AhmadBalyaDiwanullatifMIC22/Kelompok-3-MI2022C-VRS-Website/assets/114341153/04b3bf96-9ace-4369-acff-6dee0948d0f9)
 
 
 2.4 Lingkungan Operasi 
@@ -144,6 +145,7 @@ Persyaratan fungsional adalah pernyataan tentang bagaimana suatu sistem harus be
    ![alt text](https://github.com/22091397095-AhmadBalyaDiwanullatifMIC22/Kelompok-3-MI2022C-VRS-Website/blob/master/assets/gambar/USE%20CASE%20DIAGRAM%20VRS%20(2).png?raw=true)
 
 BAB 5. NON FUNCTIONAL REQUIREMENTS
+![image](https://github.com/22091397095-AhmadBalyaDiwanullatifMIC22/Kelompok-3-MI2022C-VRS-Website/assets/114341153/05917f93-a16f-49fb-a7e9-0114a3d89f3c)
 
 
 BAB 6. PENJELASAN HTML CSS
