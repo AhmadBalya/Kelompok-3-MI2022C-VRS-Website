@@ -31,6 +31,7 @@ Pengguna yang merupakan individu atau kelompok yang akan menggunakan website yan
 1.3 Batasan Produk
 
 Website Vehicle Rental Service ini adalah situs web yang dirancang khusus untuk memungkinkan pengguna menyewa kendaraan seperti mobil dan motor. 
+
 1.3.1 Tujuan dari website ini:
 
 a. Website ini memungkinkan pelanggan untuk memesan kendaraan secara online, menghemat waktu mereka daripada harus datang langsung ke kantor fisik. Ini memberikan kenyamanan yang lebih besar bagi pelanggan.
@@ -90,21 +91,13 @@ Website ini dapat digunakan untuk menyewa kendaraan seperti mobil, motor, atau s
 Website ini dirancang untuk dapat melakukan beberapa fungsi diantaranya sebagai berikut:
 
 a. Autentikasi (Log in dan Log out) 
-
 b. Kelola Data Kendaraan
-
 c. Penjadwalan penggunaan
-
 d. Pembayaran Online
-
 e. Tracking Kendaraan
-
 f. Pencarian Kendaraan
-
 g. Pemilihan Kendaraan
-
 h. Transaksi Pembayaran
-
 i. Pengambilan dan Pengembalian Kendaraan
 
 Fungsi-fungsi ini membantu menciptakan pengalaman yang lebih baik bagi pelanggan, mempermudah proses pemesanan, dan membantu pemilik rental kendaraan mengelola operasi mereka dengan lebih efisien. Semua ini bertujuan untuk meningkatkan kepuasan pelanggan dan mengoptimalkan hasil bisnis.
@@ -140,7 +133,7 @@ Persyaratan fungsional adalah pernyataan tentang bagaimana suatu sistem harus be
    ![alt text](https://github.com/22091397095-AhmadBalyaDiwanullatifMIC22/Kelompok-3-MI2022C-VRS-Website/blob/master/assets/gambar/FLOWCHARTVRS.png?raw=true)
 
    b. Use case website VRS
-   
+
    ![alt text](https://github.com/22091397095-AhmadBalyaDiwanullatifMIC22/Kelompok-3-MI2022C-VRS-Website/blob/master/assets/gambar/USE%20CASE%20DIAGRAM%20VRS%20(2).png?raw=true)
 
 BAB 5. NON FUNCTIONAL REQUIREMENTS
