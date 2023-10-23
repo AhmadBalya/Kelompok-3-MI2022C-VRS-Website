@@ -136,9 +136,11 @@ BAB 4. FUNCTIONAL REQUIREMENTS
 Persyaratan fungsional adalah pernyataan tentang bagaimana suatu sistem harus berperilaku. Ini mendefinisikan apa yang harus dilakukan sistem untuk memenuhi kebutuhan atau harapan pengguna. Persyaratan fungsional dapat dianggap sebagai fitur yang dideteksi pengguna. berbeda dari persyaratan non-fungsional, yang menentukan bagaimana sistem harus bekerja secara internal (misalnya, kinerja, keamanan, dll).
 
    a. Flowchart website VRS
+
    ![alt text](https://github.com/22091397095-AhmadBalyaDiwanullatifMIC22/Kelompok-3-MI2022C-VRS-Website/blob/master/assets/gambar/FLOWCHARTVRS.png?raw=true)
 
    b. Use case website VRS
+   
    ![alt text](https://github.com/22091397095-AhmadBalyaDiwanullatifMIC22/Kelompok-3-MI2022C-VRS-Website/blob/master/assets/gambar/USE%20CASE%20DIAGRAM%20VRS%20(2).png?raw=true)
 
 BAB 5. NON FUNCTIONAL REQUIREMENTS
