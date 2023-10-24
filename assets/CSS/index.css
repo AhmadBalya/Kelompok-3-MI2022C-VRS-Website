@@ -6,12 +6,14 @@
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url('/assets/gambar/mobilhd.png') center center/cover no-repeat fixed;
+    background-image: url(/assets/gambar/mobilhd.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     /* Menggunakan background-size: cover; untuk memastikan gambar mencakup seluruh layar */
     /* Background akan ditampilkan di tengah (center center), mencakup seluruh layar (cover), tidak diulang (no-repeat), dan tetap di tempatnya saat menggulir (fixed) */
 }
 
-.backgrond {
+.background {
     /* Menyembunyikan elemen gambar yang sebenarnya */
     display: none;
 }
@@ -128,7 +130,7 @@ ul li a:hover{
 }
 
 
-.content-header{
+.content{
     width: relative;
     margin: auto;
     color: #fff;
@@ -136,7 +138,7 @@ ul li a:hover{
   
 }
 
-.content-header .par-header{
+.content .par{
     padding-left: 20px;
     padding-bottom: 25px;
     font-family: Arial;
@@ -144,7 +146,7 @@ ul li a:hover{
     line-height: 30px;
 }
 
-.content-header h1{
+.content h1{
     font-family: 'Times New Roman';
     font-size: 70px;
     padding-left: 20px;
@@ -152,7 +154,7 @@ ul li a:hover{
     letter-spacing: 2px;
 }
 
-.content-header .cn{
+.content .cn{
     width: 160px;
     height: 40px;
     background: #ff7200;
@@ -166,7 +168,7 @@ ul li a:hover{
     
 }
 
-.content-header .cn a{
+.content .cn a{
     text-decoration: none;
     color: #000;
     transition: .3s ease;
@@ -176,12 +178,12 @@ ul li a:hover{
     background-color: #fff;
 }
 
-.content-header span{
+.content span{
     color: #ff7200;
     font-size: 65px
 }
 
-.form-header{
+.form{
     
     width: 250px;
     height: 190px;
@@ -194,7 +196,7 @@ ul li a:hover{
     padding: 25px;
 }
 
-.form-header h2{
+.form h2{
     width: 220px;
     font-family: sans-serif;
     text-align: center;
@@ -206,7 +208,7 @@ ul li a:hover{
     padding: 8px;
 }
 
-.form-header input{
+.form input{
     width: 240px;
     height: 35px;
     background: transparent;
@@ -221,7 +223,7 @@ ul li a:hover{
     font-family: sans-serif;
 }
 
-.form-header input:focus{
+.form input:focus{
     outline: none;
 }
 
@@ -230,7 +232,7 @@ ul li a:hover{
     font-family: Arial;
 }
 
-.btnn-header{
+.btnn{
     width: 240px;
     height: 40px;
     background: #ff7200;
@@ -242,22 +244,22 @@ ul li a:hover{
     color: #fff;
     transition: 0.4s ease;
 }
-.btnn-header:hover{
+.btnn:hover{
     background: #fff;
     color: #ff7200;
 }
-.btnn-header a{
+.btnn a{
     text-decoration: none;
     color: #000;
     font-weight: bold;
 }
-.form-header .link{
+.form .link{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     padding-top: 20px;
     text-align: center;
 }
-.form-header .link a{
+.form .link a{
     text-decoration: none;
     color: #ff7200;
 }
@@ -266,25 +268,32 @@ ul li a:hover{
     padding-bottom: 10px;
     text-align: center;
 }
-.icons-header a{
+.icons a{
     text-decoration: none;
     color: #fff;
 }
-.icons-header ion-icon{
+.icons ion-icon{
     color: #fff;
     font-size: 30px;
     padding-left: 14px;
     padding-top: 5px;
     transition: 0.3s ease;
 }
-.icons-header ion-icon:hover{
+.icons ion-icon:hover{
     color: #ff7200;
 }
 
+footer{
+    background-color: #fafafa6c;
+    padding: 10px;
+    text-align: center;
+}
+
 /* Button styles */
-footer button {
-    background-color: #5f8eff;
-    color: rgb(160, 79, 79) ;
+footer button{
+    bottom: 0;
+    background-color: #99a700;
+    color: rgb(123, 43, 43) ;
     padding: 5px 5px;
     font-size: 15px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -293,10 +302,10 @@ footer button {
     
     button a {
         color: #070707;
-        text-decoration:underline;
+        text-decoration:burlywood;
     
     }
     
     button:hover {
-        background-color: #1494ea;
+        background-color: #86500a;
     }
