@@ -149,5 +149,8 @@ BAB 5. NON FUNCTIONAL REQUIREMENTS
 
 
 BAB 6. PENJELASAN HTML CSS
-
+   6.1 PENJELASAN HTML
+      Penjelasan index.html:
+      
+   
    
