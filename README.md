@@ -1,4 +1,4 @@
-![Screenshot (222)](https://github.com/22091397095-AhmadBalyaDiwanullatifMIC22/Kelompok-3-MI2022C-VRS-Website/assets/124552644/6d9f98ac-539c-4f0a-a458-d3aac2734e22)![Screenshot (221)](https://github.com/22091397095-AhmadBalyaDiwanullatifMIC22/Kelompok-3-MI2022C-VRS-Website/assets/124552644/63c5a622-15af-4df3-af9a-e31844ca17f7)![Screenshot (220)](https://github.com/22091397095-AhmadBalyaDiwanullatifMIC22/Kelompok-3-MI2022C-VRS-Website/assets/124552644/deadab05-9a1b-4087-a0c4-c105b02b7daf)# Kelompok-3-MI2022C-VRS-Website
+![VRS](https://github.com/22091397095-AhmadBalyaDiwanullatifMIC22/Kelompok-3-MI2022C-VRS-Website/assets/124552644/07115ac7-85ac-4d62-960f-74e009a51c1d)
 
 LAPORAN TUGAS PEMROGRAMAN WEB dokumen WEBSITE VEHICLE RENTAL SERVICE (VRS)
 
@@ -121,6 +121,7 @@ BAB 3. KEBUTUHAN ANTARMUKA EKSTERNAL
 
 
 3.1 User Interfaces
+   
    3.1.1 Tampilan Index.html / beranda:
    ![Screenshot (218)](https://github.com/22091397095-AhmadBalyaDiwanullatifMIC22/Kelompok-3-MI2022C-VRS-Website/assets/124552644/80fd030d-e760-4421-8700-9bdd891fd374)
    3.1.2 Tampilan About Us:
