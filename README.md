@@ -152,199 +152,199 @@ BAB 6. PENJELASAN HTML CSS
 
       6.1 PENJELASAN HTML
       #Penjelasan index.html:
-      1. **`<!DOCTYPE html>`:**
+      1. <!DOCTYPE html>
          - Ini adalah deklarasi dokumen HTML versi 5.
-      2. **`<html lang="en">`:**
+      2. <html lang="en">
          - Tag pembuka untuk elemen HTML. `lang="en"` menandakan bahwa bahasa yang digunakan dalam halaman adalah bahasa Inggris.
-      3. **`<head>`:**
+      3. <head>
          - Bagian kepala dokumen yang mengandung informasi-informasi metadata, seperti karakter set, viewport, judul halaman, dan referensi ke file eksternal.
-      4. **`<meta charset="UTF-8" />`:**
+      4. <meta charset="UTF-8" />
          - Menentukan karakter set dokumen sebagai UTF-8 untuk mendukung karakter internasional.
-      5. **`<meta name="viewport" content="width=device-width, initial-scale=1.0" />`:**
+      5. <meta name="viewport" content="width=device-width, initial-scale=1.0" />
          - Mengatur tampilan viewport untuk perangkat seluler, memastikan lebar viewport mengikuti lebar perangkat dan memberikan faktor skala awal 1.
-      6. **`<title>Web | Vehicle Rental Service</title>`:**
+      6. <title>Web | Vehicle Rental Service</title>
          - Memberikan judul untuk halaman web yang akan ditampilkan di tab atau judul jendela.
-      7. **`<link rel="stylesheet" href="./assets/CSS/index.css">`:**
+      7. <link rel="stylesheet" href="./assets/CSS/index.css">
          - Mengaitkan file CSS eksternal (`index.css`) ke dalam halaman HTML.
-      8. **`<header>`:**
+      8. <header>
          - Menandai bagian header dari halaman web.
-      9. **`<div class="main-header">`:**
+      9. <div class="main-header">
          - Membuat div untuk header utama.
-      10. **`<div class="navbar-header">`:**
+      10. <div class="navbar-header">
           - Membuat div untuk bagian navbar dalam header.
-      11. **`<div class="icon-header">`:**
+      11. <div class="icon-header">
           - Membuat div untuk menyimpan ikon atau logo dalam header.
-      12. **`<h2 class="logo-header">VRS</h2>`:**
+      12. <h2 class="logo-header">VRS</h2>
           - Menampilkan teks atau logo (dengan kelas CSS "logo-header") sebagai bagian dari header.
-      13. **`<div class="menu-header">`:**
+      13. <div class="menu-header">
           - Membuat div untuk menyimpan menu navigasi dalam header.
-      14. **`<ul class="header-up">`:**
+      14. <ul class="header-up">
           - Membuat daftar tak berurutan (unordered list) sebagai menu navigasi.
-      15. **`<li><a href="TentangVRS.html">About Us</a></li>`:**
+      15. <li><a href="TentangVRS.html">About Us</a></li>
           - Membuat item daftar yang berisi tautan menu ke halaman "TentangVRS.html".
-      16. **`<li><a href="KontakVRS.html">Kontak</a></li>`:**
+      16. <li><a href="KontakVRS.html">Kontak</a></li>
           - Membuat item daftar yang berisi tautan menu ke halaman "KontakVRS.html".
-      17. **`<li><a href="ProfileOwner.html">Owner</a></li>`:**
+      17. <li><a href="ProfileOwner.html">Owner</a></li>
           - Membuat item daftar yang berisi tautan menu ke halaman "ProfileOwner.html".
-      18. **`<body>`:**
+      18. <body>
           - Menandai bagian utama dari konten halaman.
-      19. **`<div class="content">`:**
+      19. <div class="content">
           - Membuat div untuk konten utama.
-      20. **`<h1>Vehicle Rental<br><span>Service</span></h1>`:**
+      20. <h1>Vehicle Rental<br><span>Service</span></h1>
           - Menampilkan judul utama halaman dengan efek patah baris di antara kata-kata "Vehicle Rental" dan "Service". Menggunakan elemen `<span>` untuk memberikan gaya khusus pada kata "Service".
-      21. **`<p class="par">Sewa dengan cara yang aman!<br>Gunakan website kami sekarang dan jelajahi pengalaman sewa yang terjamin keamanannya.<br>Kebutuhan Anda, prioritas kami!</p>`:**
+      21. <p class="par">Sewa dengan cara yang aman!<br>Gunakan website kami sekarang dan jelajahi pengalaman sewa yang terjamin keamanannya.<br>Kebutuhan Anda, prioritas kami!</p>
           - Menampilkan paragraf dengan beberapa baris yang memberikan deskripsi tentang layanan Vehicle Rental Service.
-      22. **`<div class="form">`:**
+      22. <div class="form">
           - Membuat div untuk area formulir atau tombol.
-      23. **`<h2>Account</h2>`:**
+      23. <h2>Account</h2>
           - Menampilkan subjudul "Account" di dalam div.
-      24. **`<button class="btnn"><a href="login.html">Login </a></button>`:**
+      24. <button class="btnn"><a href="login.html">Login </a></button>
           - Membuat tombol dengan tautan menuju halaman "login.html".
-      25. **`<button class="btnn"><a href="Register.html">Register</a></button>`:**
+      25. <button class="btnn"><a href="Register.html">Register</a></button>
           - Membuat tombol dengan tautan menuju halaman "Register.html".
-      26. **`</div>`:**
+      26. </div>
           - Tag penutup untuk div dengan kelas "form".
-      27. **`</div>`:**
+      27. </div>
           - Tag penutup untuk div dengan kelas "content".
-      28. **`<footer>`:**
+      28. <footer>
           - Menandai bagian footer dari halaman.
-      29. **`<Button><a href="https://www.instagram.com/ahmdbalya13_/">Instagram</a></Button>`:**
+      29. <Button><a href="https://www.instagram.com/ahmdbalya13_/">Instagram</a></Button>
           - Menampilkan tombol dengan tautan menuju halaman Instagram.
-      30. **`<Button><a href="https://www.facebook.com/ahmad.balya.diwanullatif/">Facebook</a></Button>`:**
+      30. <Button><a href="https://www.facebook.com/ahmad.balya.diwanullatif/">Facebook</a></Button>
           - Menampilkan tombol dengan tautan menuju halaman Facebook.
-         31. **`</html>`:**
+         31. </html>
           - Tag penutup untuk elemen HTML.
 
       #Penjelasan KontakVRS.html:
-      1. **`<!DOCTYPE html>`:**
+      1. <!DOCTYPE html>
          - Ini adalah deklarasi dokumen HTML versi 5.
-      2. **`<html lang="en">`:**
+      2. <html lang="en">
          - Tag pembuka untuk elemen HTML. `lang="en"` menandakan bahwa bahasa yang digunakan dalam halaman adalah bahasa Inggris.
-      3. **`<head>`:**
+      3. <head>
          - Bagian kepala dokumen yang mengandung informasi-informasi metadata, seperti karakter set, viewport, judul halaman, dan referensi ke file eksternal.
-      4. **`<meta charset="UTF-8" />`:**
+      4. <meta charset="UTF-8" />
          - Menentukan karakter set dokumen sebagai UTF-8 untuk mendukung karakter internasional.
-      5. **`<meta name="viewport" content="width=device-width, initial-scale=1.0" />`:**
+      5. <meta name="viewport" content="width=device-width, initial-scale=1.0" />
          - Mengatur tampilan viewport untuk perangkat seluler, memastikan lebar viewport mengikuti lebar perangkat dan memberikan faktor skala awal 1.
-      6. **`<title>Web | Vehicle Rental Service</title>`:**
+      6. <title>Web | Vehicle Rental Service</title>
          - Memberikan judul untuk halaman web yang akan ditampilkan di tab atau judul jendela.
-      7. **`<link rel="stylesheet" href= "./assets/CSS/StyleKontakVRS.css">'`:**
+      7. <link rel="stylesheet" href= "./assets/CSS/StyleKontakVRS.css">'
          - Mengaitkan file CSS eksternal (`StyleKontakVRS.css`) ke dalam halaman HTML.
-      8. **`<body>`:**
+      8. <body>
          - Menandai bagian utama dari konten halaman.
-      9. **`<div class="containerc">`:**
+      9. <div class="containerc">
          - Membuat div untuk kontainer utama.
-      10. **`<div class="card-containerc">`:**
+      10. <div class="card-containerc">
           - Membuat div untuk kontainer kartu yang mengandung dua bagian, yaitu bagian kiri dan kanan.
-      11. **`<div class="leftc">`:**
+      11. <div class="leftc">
           - Membuat div untuk bagian kiri dari kartu.
-      12. **`<div class="left-containerc">`:**
+      12. <div class="left-containerc">
           - Membuat div untuk menyimpan elemen-elemen di dalam bagian kiri.
-      13. **`<img src="./assets/gambar/VRS.jpg" style="width: 80%;">`:**
+      13. <img src="./assets/gambar/VRS.jpg" style="width: 80%;">
           - Menampilkan gambar dengan path `"./assets/gambar/VRS.jpg"` dan lebar 80%.
-      14. **`<h2>Vehicle Rental Service</h2>`:**
+      14. <h2>Vehicle Rental Service</h2>
           - Menampilkan judul "Vehicle Rental Service".
-      15. **`<p>Hubungi kami via Whatsapp :<button class="whatsapp-button"><a href="https://api.whatsapp.com/send?phone=6281334712470" style="color: #d2662b;">081334712470</a></button></p>`:**
+      15. <p>Hubungi kami via Whatsapp :<button class="whatsapp-button"><a href="https://api.whatsapp.com/send?phone=6281334712470" style="color: #d2662b;">081334712470</a></button></p>
           - Menampilkan paragraf dengan tombol Whatsapp untuk menghubungi nomor tertentu.
-      16. **`<button class="back-button"><a href="../index.html" style="color: aliceblue;">Back</a></button>`:**
+      16. <button class="back-button"><a href="../index.html" style="color: aliceblue;">Back</a></button>
           - Tombol "Back" dengan tautan menuju halaman utama.
-      17. **`</div>`:**
+      17. </div>
           - Tag penutup untuk div dengan kelas "left-containerc".
-      18. **`</div>`:**
+      18. </div>
           - Tag penutup untuk div dengan kelas "leftc".
-      19. **`<div class="rightc">`:**
+      19. <div class="rightc">
           - Membuat div untuk bagian kanan dari kartu.
-      20. **`<div class="right-containerc">`:**
+      20. <div class="right-containerc">
           - Membuat div untuk menyimpan elemen-elemen di dalam bagian kanan.
-      21. **`<form action="">`:**
+      21. <form action="">
           - Membuat formulir untuk pengguna mengisi data.
-      22. **`<h2 class="lg-view">Hubungi Kami</h2>`:**
+      22. <h2 class="lg-view">Hubungi Kami</h2>
           - Menampilkan judul "Hubungi Kami" dengan kelas "lg-view" (mungkin untuk tampilan layar lebar).
-      23. **`<h2 class="sm-viewc">Hubungi Kami</h2>`:**
+      23. <h2 class="sm-viewc">Hubungi Kami</h2>
           - Menampilkan judul "Hubungi Kami" dengan kelas "sm-viewc" (mungkin untuk tampilan layar kecil).
-      24. **`<input type="text" placeholder="Nama">`:**
+      24. <input type="text" placeholder="Nama">
           - Input teks untuk nama dengan placeholder "Nama".
-      25. **`<input type="email" placeholder="Alamat Email">`:**
+      25. <input type="email" placeholder="Alamat Email">
           - Input teks untuk alamat email dengan placeholder "Alamat Email".
-      26. **`<input type="text" placeholder="Perusahaan" autocomplete="off">`:**
+      26. <input type="text" placeholder="Perusahaan" autocomplete="off">
           - Input teks untuk nama perusahaan dengan placeholder "Perusahaan" dan `autocomplete` dinonaktifkan.
-      27. **`<input type="phone" placeholder="Telepone" autocomplete="off">`:**
+      27. <input type="phone" placeholder="Telepone" autocomplete="off">
           - Input teks untuk nomor telepon dengan placeholder "Telepone" dan `autocomplete` dinonaktifkan.
-      28. **`<textarea rows="10" placeholder="Pesan"></textarea>`:**
+      28. <textarea rows="10" placeholder="Pesan"></textarea>
           - Textarea untuk memasukkan pesan dengan placeholder "Pesan" dan tinggi 10 baris.
-      29. **`<button>Kirim</button>`:**
+      29. <button>Kirim</button>
           - Tombol untuk mengirim formulir.
-      30. **`</form>`:**
+      30. </form>
           - Tag penutup untuk elemen formulir.
-      31. **`</div>`:**
+      31. </div>
           - Tag penutup untuk div dengan kelas "right-containerc".
-      32. **`</div>`:**
+      32. </div>
           - Tag penutup untuk div dengan kelas "rightc".
-      33. **`</div>`:**
+      33. </div>
           - Tag penutup untuk div dengan kelas "card-containerc".
-      34. **`</div>`:**
+      34. </div>
           - Tag penutup untuk div dengan kelas "containerc".
-      35. **`<footer>`:**
+      35. <footer>
           - Menandai bagian footer dari halaman.
-      36. **`<Button><a href="https://www.instagram.com/ahmdbalya13_/">Instagram</a></Button>`:**
+      36. <Button><a href="https://www.instagram.com/ahmdbalya13_/">Instagram</a></Button>
           - Menampilkan tombol dengan tautan menuju halaman Instagram.
-      37. **`<Button><a href="https://www.facebook.com/ahmad.balya.diwanullatif/">Facebook</a></Button>`:**
+      37. <Button><a href="https://www.facebook.com/ahmad.balya.diwanullatif/">Facebook</a></Button>
           - Menampilkan tombol dengan tautan menuju halaman Facebook.
-      38. **`</html>`:**
+      38. </html>
           - Tag penutup untuk elemen HTML.
 
       #Penjelasan TentangVRS.html:
-      1. **`<!DOCTYPE html>`:**
+      1. <!DOCTYPE html>
          - Ini adalah deklarasi dokumen HTML versi 5.
-      2. **`<html>`:**
+      2. <html>
          - Tag pembuka untuk elemen HTML.
-      3. **`<head>`:**
+      3. <head>
          - Bagian kepala dokumen yang mengandung informasi-informasi metadata, seperti karakter set, viewport, judul halaman, dan referensi ke file eksternal.
-      4. **`<meta charset="UTF-8">`:**
+      4. <meta charset="UTF-8">
          - Menentukan karakter set dokumen sebagai UTF-8 untuk mendukung karakter internasional.
-      5. **`<meta name="viewport" content="width=device-width, initial-scale=1.0">`:**
+      5. <meta name="viewport" content="width=device-width, initial-scale=1.0">
          - Mengatur tampilan viewport untuk perangkat seluler, memastikan lebar viewport mengikuti lebar perangkat dan memberikan faktor skala awal 1.
-      6. **`<link rel="stylesheet" href="./assets/CSS/StyleTentangVRS.css">`:**
+      6. <link rel="stylesheet" href="./assets/CSS/StyleTentangVRS.css">
          - Mengaitkan file CSS eksternal (`StyleTentangVRS.css`) ke dalam halaman HTML.
-      7. **`<title>About Us</title>`:**
+      7. <title>About Us</title>
          - Memberikan judul untuk halaman web yang akan ditampilkan di tab atau judul jendela.
-      8. **`<body>`:**
+      8. <body>
          - Menandai bagian utama dari konten halaman.
-      9. **`<section class="about">`:**
+      9. <section class="about">
          - Membuat bagian (section) dengan kelas "about" yang berisi informasi tentang halaman.
-      10. **`<h1>About Us</h1>`:**
+      10. <h1>About Us</h1>
           - Menampilkan judul utama "About Us".
-      11. **`<p style="font-weight: bold">Vehicle Rental Service</p>`:**
+      11. <p style="font-weight: bold">Vehicle Rental Service</p>
           - Menampilkan paragraf dengan teks "Vehicle Rental Service" yang memiliki gaya teks tebal.
-      12. **`<div class="about-info">`:**
+      12. <div class="about-info">
           - Membuat div untuk menyimpan informasi tentang halaman.
-      13. **`<div class="about-img">`:**
+      13. <div class="about-img">
           - Membuat div untuk menyimpan gambar.
-      14. **`<img src= "./assets/gambar/VRS.jpg" alt="VRS">`:**
+      14. <img src= "./assets/gambar/VRS.jpg" alt="VRS">
           - Menampilkan gambar dengan path `./assets/gambar/VRS.jpg` dan atribut `alt` untuk teks alternatif.
-      15. **`<div>`:**
+      15. <div>
           - Membuat div untuk menyimpan informasi lainnya.
-      16. **`<p>Website ini dikembangkan untuk memperkenalkan lebih luas mengenai aplikasi Vehicle Rental Service yang memudahkan masyarakat dalam mencari tempat rental kendaraan dan menyewa kendaraan secara online...</p>`:**
+      16. <p>Website ini dikembangkan untuk memperkenalkan lebih luas mengenai aplikasi Vehicle Rental Service yang memudahkan masyarakat dalam mencari tempat rental kendaraan dan menyewa kendaraan secara online...</p>
           - Menampilkan paragraf yang memberikan informasi tentang tujuan dan manfaat dari aplikasi Vehicle Rental Service.
-      17. **`<button><a href="index.html">Back</a></button>`:**
+      17. <button><a href="index.html">Back</a></button>
           - Membuat tombol dengan tautan menuju halaman utama ("index.html").
-      18. **`</div>`:**
+      18. </div>
           - Tag penutup untuk div yang menyimpan informasi.
-      19. **`</div>`:**
+      19. </div>
           - Tag penutup untuk div yang menyimpan gambar.
-      20. **`</div>`:**
+      20. </div>
           - Tag penutup untuk div yang menyimpan informasi tentang halaman.
-      21. **`</section>`:**
+      21. </section>
           - Tag penutup untuk bagian "about".
-      22. **`<footer>`:**
+      22. <footer>
           - Menandai bagian footer dari halaman.
-      23. **`<p>© 2023 VehicleRentalService. All Rights Reserved.</p>`:**
+      23. <p>© 2023 VehicleRentalService. All Rights Reserved.</p>
           - Menampilkan paragraf dengan hak cipta dan tahun yang menunjukkan hak cipta dilindungi sampai tahun 2023.
-      24. **`</footer>`:**
+      24. </footer>
           - Tag penutup untuk bagian footer.
-      25. **`</body>`:**
+      25. </body>
           - Tag penutup untuk elemen body.
-      26. **`</html>`:**
+      26. </html>
           - Tag penutup untuk elemen HTML.
 
 
