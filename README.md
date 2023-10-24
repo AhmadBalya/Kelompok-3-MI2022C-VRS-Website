@@ -1,4 +1,4 @@
-# Kelompok-3-MI2022C-VRS-Website
+![Screenshot (222)](https://github.com/22091397095-AhmadBalyaDiwanullatifMIC22/Kelompok-3-MI2022C-VRS-Website/assets/124552644/6d9f98ac-539c-4f0a-a458-d3aac2734e22)![Screenshot (221)](https://github.com/22091397095-AhmadBalyaDiwanullatifMIC22/Kelompok-3-MI2022C-VRS-Website/assets/124552644/63c5a622-15af-4df3-af9a-e31844ca17f7)![Screenshot (220)](https://github.com/22091397095-AhmadBalyaDiwanullatifMIC22/Kelompok-3-MI2022C-VRS-Website/assets/124552644/deadab05-9a1b-4087-a0c4-c105b02b7daf)# Kelompok-3-MI2022C-VRS-Website
 
 LAPORAN TUGAS PEMROGRAMAN WEB dokumen WEBSITE VEHICLE RENTAL SERVICE (VRS)
 
@@ -121,7 +121,18 @@ BAB 3. KEBUTUHAN ANTARMUKA EKSTERNAL
 
 
 3.1 User Interfaces
-
+   3.1.1 Tampilan Index.html / beranda:
+   ![Screenshot (218)](https://github.com/22091397095-AhmadBalyaDiwanullatifMIC22/Kelompok-3-MI2022C-VRS-Website/assets/124552644/80fd030d-e760-4421-8700-9bdd891fd374)
+   3.1.2 Tampilan About Us:
+   ![Screenshot (219)](https://github.com/22091397095-AhmadBalyaDiwanullatifMIC22/Kelompok-3-MI2022C-VRS-Website/assets/124552644/436f819b-90e9-48fc-9057-18afb7e48dfd)
+   3.1.3 Tampilan Hubungi Kami:
+   ![Screenshot (220)](https://github.com/22091397095-AhmadBalyaDiwanullatifMIC22/Kelompok-3-MI2022C-VRS-Website/assets/124552644/6e4754e6-11c1-4b44-875d-9e1b2e2c937b)
+   3.1.4 Tampilan Profile Owner:
+   ![Screenshot (221)](https://github.com/22091397095-AhmadBalyaDiwanullatifMIC22/Kelompok-3-MI2022C-VRS-Website/assets/124552644/a4f54b7c-bc19-4935-998c-6af5a8ff5674)
+   3.1.5 Tampilan Login:
+   ![Screenshot (222)](https://github.com/22091397095-AhmadBalyaDiwanullatifMIC22/Kelompok-3-MI2022C-VRS-Website/assets/124552644/c2d630c1-605c-44a3-acbb-81185e57ae4f)
+   3.1.6 Tampilan Register:
+   ![Screenshot (223)](https://github.com/22091397095-AhmadBalyaDiwanullatifMIC22/Kelompok-3-MI2022C-VRS-Website/assets/124552644/6ed1a200-96b5-4c1e-8863-7e9928c5995d)
 
 3.2 Hardware Interface
 Pembuatan website ini dirancang untuk dapat diakses oleh berbagai kalangan, tanpa memandang tingkat spesifikasi perangkat keras yang dimiliki pengguna. Situs web ini telah dioptimalkan untuk kinerja yang baik, baik pada perangkat dengan spesifikasi rendah maupun tinggi. Oleh karena itu, penggunaan website ini tidak memerlukan perangkat keras yang mahal atau spesifikasi tinggi.
