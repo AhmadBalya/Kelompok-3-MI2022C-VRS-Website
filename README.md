@@ -124,13 +124,15 @@ BAB 3. KEBUTUHAN ANTARMUKA EKSTERNAL
 
 
 3.2 Hardware Interface
+Pembuatan website ini dirancang untuk dapat diakses oleh berbagai kalangan, tanpa memandang tingkat spesifikasi perangkat keras yang dimiliki pengguna. Situs web ini telah dioptimalkan untuk kinerja yang baik, baik pada perangkat dengan spesifikasi rendah maupun tinggi. Oleh karena itu, penggunaan website ini tidak memerlukan perangkat keras yang mahal atau spesifikasi tinggi.
 
 
 3.3 Software Interface 
+Antarmuka perangkat lunak dari situs web penjualan camilan, yang telah diimplementasikan menggunakan kode HTML dan CSS di atas, merujuk pada tata letak halaman web. Halaman ini memiliki header yang mencakup Nama perusahaan, serta tombol "about us", "kontak" dan "ownwe" yang terletak di halaman utama. Latar belakangnya dirancang menarik. Konten utama halaman mencakup deskripsi yang menjelaskan produk atau layanan yang ditawarkan. Semua elemen ditata dengan rapi dan responsif, menciptakan antarmuka yang bersih dan mudah diakses. Antarmuka ini berfungsi sebagai tampilan depan situs web dan memberikan pengguna akses mudah ke layanan penyewaan kendaraan melalui tombol-tombol "Login" dan "Register" yang terdapat di halaman utama.
 
 
 3.4 Communication Interface
-
+Jenis spesifikasi antarmuka komunikasi pada Website yang dibangun adalah antarmuka komunikasi Client menggunakan HTTP atau HTTPS untuk mengirim permintaan dan menerima respons antara klien (Website) dan server menggunakan protokol . Pada sisi client, proses yang dilakukan adalah melakukan request pada server untuk meminta data. Oleh karena itu antarmuka yang dibutuhkan pada sisi client adalah perangkat komunikasi yang memungkinkan smartphone client terhubung dengan jaringan internet.
 
 BAB 4. FUNCTIONAL REQUIREMENTS
 
