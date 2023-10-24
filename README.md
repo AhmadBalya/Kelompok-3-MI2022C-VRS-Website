@@ -151,7 +151,7 @@ BAB 5. NON FUNCTIONAL REQUIREMENTS
 BAB 6. PENJELASAN HTML CSS
 
       6.1 PENJELASAN HTML
-      Penjelasan index.html:
+      #Penjelasan index.html:
       1. **`<!DOCTYPE html>`:**
          - Ini adalah deklarasi dokumen HTML versi 5.
       2. **`<html lang="en">`:**
@@ -214,6 +214,85 @@ BAB 6. PENJELASAN HTML CSS
           - Menampilkan tombol dengan tautan menuju halaman Facebook.
          31. **`</html>`:**
           - Tag penutup untuk elemen HTML.
+
+      #Penjelasan KontakVRS.html:
+      1. **`<!DOCTYPE html>`:**
+         - Ini adalah deklarasi dokumen HTML versi 5.
+      2. **`<html lang="en">`:**
+         - Tag pembuka untuk elemen HTML. `lang="en"` menandakan bahwa bahasa yang digunakan dalam halaman adalah bahasa Inggris.
+      3. **`<head>`:**
+         - Bagian kepala dokumen yang mengandung informasi-informasi metadata, seperti karakter set, viewport, judul halaman, dan referensi ke file eksternal.
+      4. **`<meta charset="UTF-8" />`:**
+         - Menentukan karakter set dokumen sebagai UTF-8 untuk mendukung karakter internasional.
+      5. **`<meta name="viewport" content="width=device-width, initial-scale=1.0" />`:**
+         - Mengatur tampilan viewport untuk perangkat seluler, memastikan lebar viewport mengikuti lebar perangkat dan memberikan faktor skala awal 1.
+      6. **`<title>Web | Vehicle Rental Service</title>`:**
+         - Memberikan judul untuk halaman web yang akan ditampilkan di tab atau judul jendela.
+      7. **`<link rel="stylesheet" href= "./assets/CSS/StyleKontakVRS.css">'`:**
+         - Mengaitkan file CSS eksternal (`StyleKontakVRS.css`) ke dalam halaman HTML.
+      8. **`<body>`:**
+         - Menandai bagian utama dari konten halaman.
+      9. **`<div class="containerc">`:**
+         - Membuat div untuk kontainer utama.
+      10. **`<div class="card-containerc">`:**
+          - Membuat div untuk kontainer kartu yang mengandung dua bagian, yaitu bagian kiri dan kanan.
+      11. **`<div class="leftc">`:**
+          - Membuat div untuk bagian kiri dari kartu.
+      12. **`<div class="left-containerc">`:**
+          - Membuat div untuk menyimpan elemen-elemen di dalam bagian kiri.
+      13. **`<img src="./assets/gambar/VRS.jpg" style="width: 80%;">`:**
+          - Menampilkan gambar dengan path `"./assets/gambar/VRS.jpg"` dan lebar 80%.
+      14. **`<h2>Vehicle Rental Service</h2>`:**
+          - Menampilkan judul "Vehicle Rental Service".
+      15. **`<p>Hubungi kami via Whatsapp :<button class="whatsapp-button"><a href="https://api.whatsapp.com/send?phone=6281334712470" style="color: #d2662b;">081334712470</a></button></p>`:**
+          - Menampilkan paragraf dengan tombol Whatsapp untuk menghubungi nomor tertentu.
+      16. **`<button class="back-button"><a href="../index.html" style="color: aliceblue;">Back</a></button>`:**
+          - Tombol "Back" dengan tautan menuju halaman utama.
+      17. **`</div>`:**
+          - Tag penutup untuk div dengan kelas "left-containerc".
+      18. **`</div>`:**
+          - Tag penutup untuk div dengan kelas "leftc".
+      19. **`<div class="rightc">`:**
+          - Membuat div untuk bagian kanan dari kartu.
+      20. **`<div class="right-containerc">`:**
+          - Membuat div untuk menyimpan elemen-elemen di dalam bagian kanan.
+      21. **`<form action="">`:**
+          - Membuat formulir untuk pengguna mengisi data.
+      22. **`<h2 class="lg-view">Hubungi Kami</h2>`:**
+          - Menampilkan judul "Hubungi Kami" dengan kelas "lg-view" (mungkin untuk tampilan layar lebar).
+      23. **`<h2 class="sm-viewc">Hubungi Kami</h2>`:**
+          - Menampilkan judul "Hubungi Kami" dengan kelas "sm-viewc" (mungkin untuk tampilan layar kecil).
+      24. **`<input type="text" placeholder="Nama">`:**
+          - Input teks untuk nama dengan placeholder "Nama".
+      25. **`<input type="email" placeholder="Alamat Email">`:**
+          - Input teks untuk alamat email dengan placeholder "Alamat Email".
+      26. **`<input type="text" placeholder="Perusahaan" autocomplete="off">`:**
+          - Input teks untuk nama perusahaan dengan placeholder "Perusahaan" dan `autocomplete` dinonaktifkan.
+      27. **`<input type="phone" placeholder="Telepone" autocomplete="off">`:**
+          - Input teks untuk nomor telepon dengan placeholder "Telepone" dan `autocomplete` dinonaktifkan.
+      28. **`<textarea rows="10" placeholder="Pesan"></textarea>`:**
+          - Textarea untuk memasukkan pesan dengan placeholder "Pesan" dan tinggi 10 baris.
+      29. **`<button>Kirim</button>`:**
+          - Tombol untuk mengirim formulir.
+      30. **`</form>`:**
+          - Tag penutup untuk elemen formulir.
+      31. **`</div>`:**
+          - Tag penutup untuk div dengan kelas "right-containerc".
+      32. **`</div>`:**
+          - Tag penutup untuk div dengan kelas "rightc".
+      33. **`</div>`:**
+          - Tag penutup untuk div dengan kelas "card-containerc".
+      34. **`</div>`:**
+          - Tag penutup untuk div dengan kelas "containerc".
+      35. **`<footer>`:**
+          - Menandai bagian footer dari halaman.
+      36. **`<Button><a href="https://www.instagram.com/ahmdbalya13_/">Instagram</a></Button>`:**
+          - Menampilkan tombol dengan tautan menuju halaman Instagram.
+      37. **`<Button><a href="https://www.facebook.com/ahmad.balya.diwanullatif/">Facebook</a></Button>`:**
+          - Menampilkan tombol dengan tautan menuju halaman Facebook.
+      38. **`</html>`:**
+          - Tag penutup untuk elemen HTML.
+
 
       
       
