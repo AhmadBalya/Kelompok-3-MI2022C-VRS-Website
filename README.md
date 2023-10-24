@@ -666,3 +666,134 @@ BAB 6. PENJELASAN HTML CSS
             - `background-color: #ff7200;`: Warna latar belakang.
             - `text-align: center;`: Penataan teks ke tengah.
             - `cursor: pointer;`: Mengubah kursor saat diarahkan.
+            
+         #penjelasan tentang login.css
+      1.	background-color: aquamarine:
+      -Mengatur warna latar belakang elemen.
+      2.	padding: 40px
+      -Memberikan ruang dalam elemen dengan padding 40px.
+      3.	border: 2px solid
+      -Memberikan elemen border dengan ketebalan 2px.
+      4.	border-radius: 20px
+      -Memberikan sudut lengkung pada border elemen.
+      5.	backdrop-filter: blur(20px)
+      -Memberikan efek blur pada elemen latar belakang.
+      6.	box-shadow: 10 20 10px rgba(0, 0, 0, 0.1)
+      -Menambahkan bayangan pada elemen.
+      7.	text-align: center
+      -Mengatur teks di dalam elemen menjadi rata tengah.
+      8.	width: 300px
+      -Mengatur lebar elemen menjadi 300px.
+      9.	position: relative
+      -Mengatur posisi elemen relatif terhadap posisi normalnya.
+      10.	Bagian CSS untuk .form-grouplogin
+      11.	font-family: Arial, Helvetica, sans-serif;: 
+      -Mengatur jenis font untuk teks dalam elemen ini.
+      12.	margin-bottom: 30px
+      -Memberikan margin di bagian bawah elemen sejauh 30px.
+      13.	text-align: left
+      -Mengatur teks di dalam elemen menjadi rata kiri.
+      14.	.form-grouplogin label
+      -Mengatur gaya label dalam elemen .form-grouplogin. Label ditampilkan sebagai blok, memiliki warna teks hitam, ketebalan font tebal, dan margin bawah sejauh 5px.
+
+      #penjelasan tentang Owner.css
+      1.	background-image: url(../gambar/mobilhd.png)
+      - Mengatur gambar latar belakang halaman dengan path '../gambar/mobilhd.png'.
+      2.	display: flex
+      - Menggunakan model tata letak flexbox untuk mengatur elemen-elemen di dalamnya.
+      3.	justify-content: space-around
+      -Mengatur ruang sekitar elemen-elemen kartu secara merata di sepanjang sumbu horizontal.
+      4.	align-items: center
+      -Mengatur seluruh isi elemen secara vertikal di tengah.
+      5.	box-shadow: 0 4px 8px 0 rgb(0, 0, 0)
+      -Memberi efek bayangan pada kartu.
+      6.	max-width: 300px
+      -Mengatur lebar maksimum kartu menjadi 300 piksel.
+      7.	margin: 20px
+      - Memberi margin 20 piksel di sekeliling kartu.
+      8.	text-align: center
+      -Mengatur teks di dalam kartu menjadi rata tengah.
+      9.	font-family: arial
+      -Mengatur jenis font teks di dalam kartu menjadi Arial.
+      10.	background-color: #000
+      -Memberi warna latar belakang kartu menjadi hitam.
+      11.	max-width: 100%
+      -Memastikan gambar di dalam kartu tidak melebihi lebar kartu.
+      12.	height: auto
+      -Memastikan gambar tetap proporsional saat mengubah lebar.
+      13.	text-align: center
+      -Mengatur teks di dalam elemen dengan kelas .text menjadi rata tengah.
+      14.	margin: 20px
+      -Memberi margin 20 piksel di sekeliling elemen dengan kelas .text
+      15.	display: block
+      -Mengubah tombol kembali menjadi elemen blok.
+      16.	margin: 20px auto
+      -Memberi margin 20 piksel di atas dan bawah, serta otomatis di kiri dan kanan (ditengahkan secara horizontal).
+      17.	padding: 10px 20px
+      -Memberi padding 10 piksel di atas dan bawah, serta 20 piksel di kiri dan kanan tombol.
+      18.	background-color: #000000
+      -Memberi warna latar belakang tombol kembali menjadi hitam.
+      19.	color: #fff
+      -Mengatur warna teks tombol kembali menjadi putih.
+      20.	border: none
+      -Menghapus border tombol.
+      21.	border-radius: 5px
+      -Mengubah sudut border tombol menjadi melengkung dengan jari-jari 5 piksel.
+      22.	cursor: pointer
+      -Menjadikan kursor berubah menjadi tanda tangan saat mengarahkan ke tombol.
+      23.	text-decoration: none
+      -Menghapus dekorasi tautan pada tombol.
+      24.	:hover
+      -Mengatur tampilan tombol saat dihover. Ketika tombol dihover, warna latar belakangnya berubah menjadi abu-abu (#555).
+
+      #penjelasan tentang Register.css
+      1.	background-image
+      -Menentukan gambar latar belakang dengan path '/assets/gambar/blackcar.gif'.
+      2.	background-repeat: no-repeat
+      -Menghindari pengulangan gambar latar belakang.
+      3.	background-size: cover
+      -Memastikan gambar latar belakang mencakup seluruh area elemen, meskipun harus dipotong.
+      4.	background-position: center
+      -Menetapkan posisi gambar latar belakang ke tengah elemen.
+      5.	position: relative
+      -Mengatur posisi elemen secara relatif terhadap posisi normalnya.
+      6.	display: flex
+      -Menggunakan model tata letak flexbox untuk mengatur elemen di dalamnya.
+      7.	align-items: center
+      -Mengatur seluruh isi elemen secara vertikal di tengah.
+      8.	justify-content: center
+      -Mengatur seluruh isi elemen secara horizontal di tengah.
+      9.	height: 100vh
+      -Mengatur tinggi elemen sesuai dengan tinggi viewport pengguna.
+      10.	margin: 0
+      -Menghapus margin.
+      11.	padding-top: 65px
+      -Memberi padding pada bagian atas elemen sejauh 65 piksel.
+      12.	box-sizing: border-box
+      -Memastikan bahwa padding dan border tidak menambah lebar elemen.
+      13.	z-index: 1
+      -Menentukan urutan z-indeks elemen.
+      14.	background-color: #94CEFF
+      -Menentukan warna latar belakang kontainer pendaftaran.
+      15.	font-variant: small-caps
+      -Mengubah huruf menjadi kapital kecil.
+      16.	padding: 40px
+      -Memberi padding 40 piksel di dalam kontainer.
+      17.	border-radius: 11px
+      -Mengubah sudut border menjadi melengkung dengan jari-jari 11 piksel.
+      18.	box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.1)
+      -Memberi efek bayangan pada kontainer.
+      19.	text-align: center
+      -Mengatur teks di dalam kontainer menjadi rata tengah.
+      20.	width: 300px
+      -Mengatur lebar kontainer menjadi 300 piksel.
+      21.	position: relative
+      -Mengatur posisi kontainer secara relatif terhadap posisi normalnya.
+
+      
+      
+      
+
+
+
+
