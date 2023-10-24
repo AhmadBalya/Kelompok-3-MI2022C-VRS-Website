@@ -293,6 +293,61 @@ BAB 6. PENJELASAN HTML CSS
       38. **`</html>`:**
           - Tag penutup untuk elemen HTML.
 
+      #Penjelasan TentangVRS.html:
+      1. **`<!DOCTYPE html>`:**
+         - Ini adalah deklarasi dokumen HTML versi 5.
+      2. **`<html>`:**
+         - Tag pembuka untuk elemen HTML.
+      3. **`<head>`:**
+         - Bagian kepala dokumen yang mengandung informasi-informasi metadata, seperti karakter set, viewport, judul halaman, dan referensi ke file eksternal.
+      4. **`<meta charset="UTF-8">`:**
+         - Menentukan karakter set dokumen sebagai UTF-8 untuk mendukung karakter internasional.
+      5. **`<meta name="viewport" content="width=device-width, initial-scale=1.0">`:**
+         - Mengatur tampilan viewport untuk perangkat seluler, memastikan lebar viewport mengikuti lebar perangkat dan memberikan faktor skala awal 1.
+      6. **`<link rel="stylesheet" href="./assets/CSS/StyleTentangVRS.css">`:**
+         - Mengaitkan file CSS eksternal (`StyleTentangVRS.css`) ke dalam halaman HTML.
+      7. **`<title>About Us</title>`:**
+         - Memberikan judul untuk halaman web yang akan ditampilkan di tab atau judul jendela.
+      8. **`<body>`:**
+         - Menandai bagian utama dari konten halaman.
+      9. **`<section class="about">`:**
+         - Membuat bagian (section) dengan kelas "about" yang berisi informasi tentang halaman.
+      10. **`<h1>About Us</h1>`:**
+          - Menampilkan judul utama "About Us".
+      11. **`<p style="font-weight: bold">Vehicle Rental Service</p>`:**
+          - Menampilkan paragraf dengan teks "Vehicle Rental Service" yang memiliki gaya teks tebal.
+      12. **`<div class="about-info">`:**
+          - Membuat div untuk menyimpan informasi tentang halaman.
+      13. **`<div class="about-img">`:**
+          - Membuat div untuk menyimpan gambar.
+      14. **`<img src= "./assets/gambar/VRS.jpg" alt="VRS">`:**
+          - Menampilkan gambar dengan path `./assets/gambar/VRS.jpg` dan atribut `alt` untuk teks alternatif.
+      15. **`<div>`:**
+          - Membuat div untuk menyimpan informasi lainnya.
+      16. **`<p>Website ini dikembangkan untuk memperkenalkan lebih luas mengenai aplikasi Vehicle Rental Service yang memudahkan masyarakat dalam mencari tempat rental kendaraan dan menyewa kendaraan secara online...</p>`:**
+          - Menampilkan paragraf yang memberikan informasi tentang tujuan dan manfaat dari aplikasi Vehicle Rental Service.
+      17. **`<button><a href="index.html">Back</a></button>`:**
+          - Membuat tombol dengan tautan menuju halaman utama ("index.html").
+      18. **`</div>`:**
+          - Tag penutup untuk div yang menyimpan informasi.
+      19. **`</div>`:**
+          - Tag penutup untuk div yang menyimpan gambar.
+      20. **`</div>`:**
+          - Tag penutup untuk div yang menyimpan informasi tentang halaman.
+      21. **`</section>`:**
+          - Tag penutup untuk bagian "about".
+      22. **`<footer>`:**
+          - Menandai bagian footer dari halaman.
+      23. **`<p>© 2023 VehicleRentalService. All Rights Reserved.</p>`:**
+          - Menampilkan paragraf dengan hak cipta dan tahun yang menunjukkan hak cipta dilindungi sampai tahun 2023.
+      24. **`</footer>`:**
+          - Tag penutup untuk bagian footer.
+      25. **`</body>`:**
+          - Tag penutup untuk elemen body.
+      26. **`</html>`:**
+          - Tag penutup untuk elemen HTML.
+
+
 
       
       
