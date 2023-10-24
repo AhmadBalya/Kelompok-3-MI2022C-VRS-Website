@@ -150,9 +150,71 @@ BAB 5. NON FUNCTIONAL REQUIREMENTS
 
 BAB 6. PENJELASAN HTML CSS
 
-   6.1 PENJELASAN HTML
-   
+      6.1 PENJELASAN HTML
       Penjelasan index.html:
+      1. **`<!DOCTYPE html>`:**
+         - Ini adalah deklarasi dokumen HTML versi 5.
+      2. **`<html lang="en">`:**
+         - Tag pembuka untuk elemen HTML. `lang="en"` menandakan bahwa bahasa yang digunakan dalam halaman adalah bahasa Inggris.
+      3. **`<head>`:**
+         - Bagian kepala dokumen yang mengandung informasi-informasi metadata, seperti karakter set, viewport, judul halaman, dan referensi ke file eksternal.
+      4. **`<meta charset="UTF-8" />`:**
+         - Menentukan karakter set dokumen sebagai UTF-8 untuk mendukung karakter internasional.
+      5. **`<meta name="viewport" content="width=device-width, initial-scale=1.0" />`:**
+         - Mengatur tampilan viewport untuk perangkat seluler, memastikan lebar viewport mengikuti lebar perangkat dan memberikan faktor skala awal 1.
+      6. **`<title>Web | Vehicle Rental Service</title>`:**
+         - Memberikan judul untuk halaman web yang akan ditampilkan di tab atau judul jendela.
+      7. **`<link rel="stylesheet" href="./assets/CSS/index.css">`:**
+         - Mengaitkan file CSS eksternal (`index.css`) ke dalam halaman HTML.
+      8. **`<header>`:**
+         - Menandai bagian header dari halaman web.
+      9. **`<div class="main-header">`:**
+         - Membuat div untuk header utama.
+      10. **`<div class="navbar-header">`:**
+          - Membuat div untuk bagian navbar dalam header.
+      11. **`<div class="icon-header">`:**
+          - Membuat div untuk menyimpan ikon atau logo dalam header.
+      12. **`<h2 class="logo-header">VRS</h2>`:**
+          - Menampilkan teks atau logo (dengan kelas CSS "logo-header") sebagai bagian dari header.
+      13. **`<div class="menu-header">`:**
+          - Membuat div untuk menyimpan menu navigasi dalam header.
+      14. **`<ul class="header-up">`:**
+          - Membuat daftar tak berurutan (unordered list) sebagai menu navigasi.
+      15. **`<li><a href="TentangVRS.html">About Us</a></li>`:**
+          - Membuat item daftar yang berisi tautan menu ke halaman "TentangVRS.html".
+      16. **`<li><a href="KontakVRS.html">Kontak</a></li>`:**
+          - Membuat item daftar yang berisi tautan menu ke halaman "KontakVRS.html".
+      17. **`<li><a href="ProfileOwner.html">Owner</a></li>`:**
+          - Membuat item daftar yang berisi tautan menu ke halaman "ProfileOwner.html".
+      18. **`<body>`:**
+          - Menandai bagian utama dari konten halaman.
+      19. **`<div class="content">`:**
+          - Membuat div untuk konten utama.
+      20. **`<h1>Vehicle Rental<br><span>Service</span></h1>`:**
+          - Menampilkan judul utama halaman dengan efek patah baris di antara kata-kata "Vehicle Rental" dan "Service". Menggunakan elemen `<span>` untuk memberikan gaya khusus pada kata "Service".
+      21. **`<p class="par">Sewa dengan cara yang aman!<br>Gunakan website kami sekarang dan jelajahi pengalaman sewa yang terjamin keamanannya.<br>Kebutuhan Anda, prioritas kami!</p>`:**
+          - Menampilkan paragraf dengan beberapa baris yang memberikan deskripsi tentang layanan Vehicle Rental Service.
+      22. **`<div class="form">`:**
+          - Membuat div untuk area formulir atau tombol.
+      23. **`<h2>Account</h2>`:**
+          - Menampilkan subjudul "Account" di dalam div.
+      24. **`<button class="btnn"><a href="login.html">Login </a></button>`:**
+          - Membuat tombol dengan tautan menuju halaman "login.html".
+      25. **`<button class="btnn"><a href="Register.html">Register</a></button>`:**
+          - Membuat tombol dengan tautan menuju halaman "Register.html".
+      26. **`</div>`:**
+          - Tag penutup untuk div dengan kelas "form".
+      27. **`</div>`:**
+          - Tag penutup untuk div dengan kelas "content".
+      28. **`<footer>`:**
+          - Menandai bagian footer dari halaman.
+      29. **`<Button><a href="https://www.instagram.com/ahmdbalya13_/">Instagram</a></Button>`:**
+          - Menampilkan tombol dengan tautan menuju halaman Instagram.
+      30. **`<Button><a href="https://www.facebook.com/ahmad.balya.diwanullatif/">Facebook</a></Button>`:**
+          - Menampilkan tombol dengan tautan menuju halaman Facebook.
+         31. **`</html>`:**
+          - Tag penutup untuk elemen HTML.
+
       
       
    
