@@ -6,8 +6,12 @@
 body {
     margin: 0;
     padding: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
     background-image: url(/assets/gambar/mobilhd.png);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     /* Menggunakan background-size: cover; untuk memastikan gambar mencakup seluruh layar */
     /* Background akan ditampilkan di tengah (center center), mencakup seluruh layar (cover), tidak diulang (no-repeat), dan tetap di tempatnya saat menggulir (fixed) */
@@ -131,11 +135,9 @@ ul li a:hover{
 
 
 .content{
-    width: relative;
     margin: auto;
-    color: #fff;
+    color: #ffffff;
     position: relative;
-  
 }
 
 .content .par{
@@ -184,13 +186,12 @@ ul li a:hover{
 }
 
 .form{
-    
     width: 250px;
     height: 190px;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
     position: absolute;
-    top: 230px;
-    left: 1000px;
+    top: 350px;
+    left: 100px;
     transform: translate(0%,-5%);
     border-radius: 10px;
     padding: 25px;
@@ -287,6 +288,7 @@ footer{
     background-color: #fafafa6c;
     padding: 10px;
     text-align: center;
+    bottom: 0;
 }
 
 /* Button styles */
