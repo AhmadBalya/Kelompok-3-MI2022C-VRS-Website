@@ -439,11 +439,230 @@ BAB 6. PENJELASAN HTML CSS
       26. <button><a href="../index.html"> Back </a></button>
       -	Ini adalah tombol tautan yang mengarahkan pengguna kembali ke halaman utama (index.html) ketika ditekan.
 
+      6.2 PENJELASAN CSS
+      #Penjelasan index.css:
+      1. * { margin: 0; padding: 0; }
+         - Selector universal untuk menghilangkan margin dan padding secara default pada semua elemen.
+      2. body { ... }
+         - Pengaturan untuk elemen `body`:
+           - `display: flex;`: Menggunakan model tata letak flex.
+           - `min-height: 100vh;`: Menetapkan tinggi minimum 100% dari tinggi viewport.
+           - `background-image: url(/assets/gambar/mobilhd.png);`: Menetapkan gambar latar belakang.
+           - `background-size: cover;`: Mengatur ukuran gambar latar belakang agar mencakup seluruh area.
+           - `background-position: center;`: Menetapkan posisi gambar latar belakang di tengah.
+           - `background-repeat: no-repeat;`: Menetapkan agar gambar latar belakang tidak diulang.
+      3. .background { ... }
+         - Pengaturan untuk elemen dengan kelas "background":
+           - `display: none;`: Elemen ini awalnya disembunyikan.
+      4. .main-header { ... }
+         - Pengaturan untuk elemen dengan kelas "main-header":
+           - `background-color: rgba(5, 5, 5, 0.49);`: Warna latar belakang dengan opacity.
+           - `height: 10vh;`: Tinggi elemen 10% dari tinggi viewport.
+           - `width: relative;`: Kesalahan penulisan, seharusnya `width: auto;` atau dihapus.
+           - `background-repeat: no-repeat;`: Menetapkan agar gambar latar belakang tidak diulang.
+      5. .navbar-header { ... }
+         - Pengaturan untuk elemen dengan kelas "navbar-header":
+           - `width: 1200px;`: Lebar elemen 1200 piksel.
+           - `height: 75px;`: Tinggi elemen 75 piksel.
+           - `margin: auto;`: Elemen ini ditengahkan secara horizontal.
+      6. .icon-header { ... }
+         - Pengaturan untuk elemen dengan kelas "icon-header":
+           - `width: 200px;`: Lebar elemen 200 piksel.
+           - `float: left;`: Membuat elemen melayang di sebelah kiri.
+      7. .logo-header { ... }
+         - Pengaturan untuk elemen dengan kelas "logo-header":
+           - `color: #ff7200;`: Warna teks.
+           - `font-size: 35px;`: Ukuran teks.
+           - `font-family: Arial;`: Jenis huruf.
+           - `padding-left: 20px;`: Padding pada sisi kiri.
+           - `float: left;`: Membuat elemen melayang di sebelah kiri.
+           - `padding-top: 10px;`: Padding di bagian atas.
+           - `margin-top: 5px;`: Margin di bagian atas.
+      8. .menu-header { ... }
+         - Pengaturan untuk elemen dengan kelas "menu-header":
+           - `width: 400px;`: Lebar elemen 400 piksel.
+           - `float: left;`: Membuat elemen melayang di sebelah kiri.
+           - `height: 70px;`: Tinggi elemen 70 piksel.
+      9. ul { ... }
+         - Pengaturan untuk elemen `ul` (daftar tak berurutan):
+           - `float: left;`: Membuat elemen melayang di sebelah kiri.
+           - `display: flex;`: Menggunakan model tata letak flex.
+           - `justify-content: center;`: Mengatur penataan ke tengah secara horizontal.
+           - `align-items: center;`: Mengatur penataan ke tengah secara vertikal.
+           - `text-decoration: underline;`: Garis bawah pada tautan.
+      10. ul li { ... }
+          - Pengaturan untuk elemen `li` di dalam elemen `ul`:
+            - `list-style: none;`: Menghilangkan gaya daftar.
+            - `margin-left: 62px;`: Margin di sisi kiri.
+            - `margin-top: 27px;`: Margin di bagian atas.
+            - `font-size: 14px;`: Ukuran teks.
+      11. ul li a { ... }
+          - Pengaturan untuk tautan di dalam elemen `li`:
+            - `text-decoration: none;`: Menghilangkan dekorasi tautan.
+            - `color: #fff;`: Warna teks.
+            - `font-family: Arial;`: Jenis huruf.
+            - `font-weight: bold;`: Ketebalan teks.
+            - `transition: 0.4s ease-in-out;`: Efek transisi.
+      12. ul li a:hover { ... }
+          - Pengaturan saat tautan di-hover:
+            - `color: #ff7200;`: Warna teks berubah saat di-hover.
+
+      #Penjelasan StyleKontakVRS.css:
+      1. body { ... }
+         - Pengaturan untuk elemen `body`:
+           - `display: flex;`: Menggunakan model tata letak flex.
+           - `justify-content: center;`: Menyusun elemen secara horizontal di tengah.
+           - `align-items: center;`: Menyusun elemen secara vertikal di tengah.
+           - `flex-direction: column;`: Menyusun elemen secara vertikal.
+           - `font-family: "Montserrat", sans-serif;`: Jenis huruf yang akan digunakan.
+           - `font-size: 10px;`: Ukuran teks.
+           - `height: 100vh;`: Tinggi elemen 100% dari tinggi viewport.
+           - `margin: -20px 0 50px;`: Margin pada sisi atas, sisi bawah, dan sisi kanan.
+           - `padding: 10px;`: Padding pada sisi dalam elemen.
+           - `background-image: url('/assets/gambar/mobilhd.png');`: Menetapkan gambar latar belakang.
+      2. .containerc { ... }
+         - Pengaturan untuk elemen dengan kelas "containerc":
+           - `background-color: #000000;`: Warna latar belakang elemen.
+           - `border-radius: 5px;`: Radius sudut elemen.
+           - `box-shadow: ...;`: Bayangan elemen.
+           - `position: relative;`: Menetapkan posisi elemen.
+           - `overflow: visible;`: Mengatur overflow ke visible.
+           - `width: 769px;`: Lebar elemen 769 piksel.
+           - `max-width: 100%;`: Lebar elemen maksimum 100% dari parent.
+           - `min-height: 522px;`: Tinggi elemen minimum 522 piksel.
+           - `min-width: 370px;`: Lebar elemen minimum 370 piksel.
       
-      
-      
-      
-            
-            
-         
-   
+      3. .card-containerc { ... }
+         - Pengaturan untuk elemen dengan kelas "card-containerc":
+           - `display: flex;`: Menggunakan model tata letak flex.
+           - `position: relative;`: Menetapkan posisi elemen.
+      4. .leftc { ... }
+         - Pengaturan untuk elemen dengan kelas "leftc":
+           - `flex: 1;`: Membagi ruang seimbang untuk elemen di dalam flex container.
+           - `height: 480px;`: Tinggi elemen 480 piksel.
+           - `background-color: #bcbbb1;`: Warna latar belakang elemen.
+           - **Catatan:** Terdapat duplikasi definisi `.leftc` di bagian bawah, mungkin ada kesalahan penulisan.
+      5. .rightc { ... }
+         - Pengaturan untuk elemen dengan kelas "rightc":
+           - `display: flex;`: Menggunakan model tata letak flex.
+           - `flex: 1;`: Membagi ruang seimbang untuk elemen di dalam flex container.
+           - `height: 570px;`: Tinggi elemen 570 piksel.
+           - `background-color: #bcbbb1;`: Warna latar belakang elemen.
+           - `justify-content: center;`: Menyusun elemen secara horizontal di tengah.
+      6. .left-containerc { ... }
+         - Pengaturan untuk elemen dengan kelas "left-containerc":
+           - `height: 70%;`: Tinggi elemen 70% dari parent.
+           - `width: 80%;`: Lebar elemen 80% dari parent.
+           - `text-align: center;`: Penataan teks ke tengah.
+           - `line-height: 21px;`: Ketinggian baris elemen.
+      7. .leftc p { ... }
+         - Pengaturan untuk elemen `p` di dalam elemen dengan kelas "leftc":
+           - `font-size: 12px;`: Ukuran teks.
+      8. h2 { ... }
+         - Pengaturan untuk elemen `h2`:
+           - `font-size: 28px;`: Ukuran teks.
+           - `margin-bottom: 12px;`: Margin pada sisi bawah.
+      9. .right-containerc { ... }
+         - Pengaturan untuk elemen dengan kelas "right-containerc":
+           - `width: 90%;`: Lebar elemen 90% dari parent.
+           - `height: 80%;`: Tinggi elemen 80% dari parent.
+           - `padding-right: 20px;`: Padding pada sisi kanan.
+           - `text-align: center;`: Penataan teks ke tengah.
+      10. input, textarea { ... }
+          - Pengaturan untuk elemen `input` dan `textarea`:
+            - `background-color: #d3646449;`: Warna latar belakang elemen.
+            - `border: 1px solid;`: Garis elemen.
+            - `padding: 12px 2px;`: Padding pada sisi dalam elemen.
+            - `margin: 8px 0;`: Margin pada sisi atas dan bawah.
+            - `width: 100%;`: Lebar elemen 100% dari parent.
+            - `font-size: 13px;`: Ukuran teks.
+            - `border-radius: 10px;`: Radius sudut elemen.
+      11. button { ... }
+          - Pengaturan untuk elemen `button`:
+            - `border-radius: 20px;`: Radius sudut elemen.
+            - `border: 1px solid #00000000;`: Garis elemen.
+            - `background-color: #332020c3;`: Warna latar belakang elemen.
+            - `color: #ffffff;`: Warna teks.
+            - `font-size: 12px;`: Ukuran teks.
+            - `font-weight: bold;`: Ketebalan teks.
+            - `padding: 12px 45px;`: Padding pada sisi dalam elemen.
+            - `letter-spacing: 1px;`: Jarak antar huruf.
+            - `text-transform: uppercase;`: Mengonversi teks menjadi huruf besar.
+            - `transition: transform 80ms ease-out;`: Efek transisi.
+            - `cursor: pointer;`: Mengubah kursor saat diarahkan.
+      12. button:hover { ... }
+          - Pengaturan saat tombol di-hover:
+            - `opacity: 0.7;`: Tingkat kejelasan elemen.
+      13. textarea { ... }
+          - Pengaturan tambahan untuk elemen `textarea`:
+            - `height: 90px;`: Tinggi elemen 90 piksel.
+      14. @media only screen and (max-width: 600px) { ... }
+          - Pengaturan responsif untuk lebar layar maksimum 600 piksel:
+            - `.leftc { display: none; }`: Menyembunyikan elemen dengan kelas "leftc".
+            - `.lg-viewc { display: none; }`: Menyembunyikan elemen dengan kelas "lg-viewc".
+      15. @media only screen and (min-width: 600px) { ... }
+          - Pengaturan responsif untuk lebar layar minimum 600 piksel:
+            - `.sm-viewc { display: none; }`: Menyembunyikan elemen dengan kelas "sm-viewc".
+
+      #Penjelasan StyleTentangVRS.css:
+      1. * { ... }
+         - Selector universal yang berlaku untuk semua elemen.
+         - `margin: 0;`: Menghilangkan margin default.
+         - `padding: 0;`: Menghilangkan padding default.
+         - `box-sizing: border-box;`: Menetapkan model kotak dengan padding dan border yang terhitung dalam total lebar dan tinggi elemen.
+      2. body { ... }
+         - Pengaturan untuk elemen `body`:
+           - `font-family: Georgia, 'Times New Roman', Times, serif;`: Jenis huruf yang akan digunakan.
+      3. .about { ... }
+         - Pengaturan untuk elemen dengan kelas "about" (seksi tentang):
+           - `background: #000000;`: Warna latar belakang.
+           - `background-image: url(../gambar/mobilhd.png);`: Gambar latar belakang.
+           - `padding: 100px 0 20px 0;`: Padding pada sisi dalam elemen.
+           - `text-align: center;`: Penataan teks ke tengah.
+           - `margin-bottom: 100px;`: Margin pada sisi bawah.
+           - `height: 100vh;`: Tinggi elemen setara dengan tinggi viewport.
+      4. .about h1 { ... }
+         - Pengaturan untuk elemen `h1` di dalam elemen dengan kelas "about":
+           - `font-size: 42px;`: Ukuran teks.
+           - `margin-bottom: 50px;`: Margin pada sisi bawah.
+           - `color: #ffffff;`: Warna teks.
+           - `margin-top: auto;`: Margin pada sisi atas.
+      5. .about p { ... }
+         - Pengaturan untuk elemen `p` di dalam elemen dengan kelas "about":
+           - `font-size: 30px;`: Ukuran teks.
+           - `color: #ffffff;`: Warna teks.
+           - `max-width: 800px;`: Lebar maksimum elemen.
+           - `margin: 0 auto;`: Margin otomatis pada sisi kiri dan kanan.
+      6. .about-info { ... }
+         - Pengaturan untuk elemen dengan kelas "about-info":
+           - `margin: 20px;`: Margin pada sisi luar elemen.
+           - `display: flex;`: Menggunakan model tata letak flex.
+           - `align-items: center;`: Menyusun elemen secara vertikal di tengah.
+           - `justify-content: center;`: Menyusun elemen secara horizontal di tengah.
+           - `text-align: left;`: Penataan teks ke kiri.
+      7. .about-img { ... }
+         - Pengaturan untuk elemen dengan kelas "about-img":
+           - `width: 450px;`: Lebar elemen 450 piksel.
+           - `height: auto;`: Tinggi elemen menyesuaikan proporsi aslinya.
+      8. .about-img img { ... }
+         - Pengaturan untuk elemen `img` di dalam elemen dengan kelas "about-img":
+           - `width: 100%;`: Lebar gambar 100% dari elemen parent.
+           - `height: 100%;`: Tinggi gambar 100% dari elemen parent.
+           - `border-radius: 5px;`: Radius sudut elemen.
+           - `object-fit: contain;`: Memastikan gambar sesuai dengan elemen tanpa merubah rasio aspek.
+      9. .about-info p { ... }
+         - Pengaturan untuk elemen `p` di dalam elemen dengan kelas "about-info":
+           - `font-size: 18px;`: Ukuran teks.
+           - `margin: 0 32px;`: Margin pada sisi kiri dan kanan.
+           - `text-align: justify;`: Penataan teks rata kiri.
+      10. button { ... }
+          - Pengaturan untuk elemen `button`:
+            - `border: none;`: Menghilangkan batas elemen.
+            - `outline: 0;`: Menghilangkan outline (garis tepi) pada fokus.
+            - `padding: 10px;`: Padding pada sisi dalam elemen.
+            - `margin: 32px;`: Margin pada sisi luar elemen.
+            - `font-size: 14px;`: Ukuran teks.
+            - `color: white;`: Warna teks.
+            - `background-color: #ff7200;`: Warna latar belakang.
+            - `text-align: center;`: Penataan teks ke tengah.
+            - `cursor: pointer;`: Mengubah kursor saat diarahkan.
