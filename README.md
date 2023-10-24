@@ -347,9 +347,103 @@ BAB 6. PENJELASAN HTML CSS
       26. </html>
           - Tag penutup untuk elemen HTML.
 
+            #penjelasan tentang login.html
+      1. <!DOCTYPE html>
+      -Ini adalah deklarasi tipe dokumen (Document Type Declaration) untuk menyatakan bahwa dokumen ini adalah dokumen HTML5.
+      2. <html lang="en">: 
+      - Tag pembuka untuk elemen HTML. lang="en" menunjukkan bahwa konten dalam dokumen ini menggunakan bahasa Inggris (English).<head>: 
+      - Bagian ini berisi informasi-informasi meta dan tautan ke berkas eksternal seperti CSS atau JavaScript.
+      3. <meta charset="UTF-8" />: 
+      -Menginformasikan bahwa karakter encoding dokumen ini adalah UTF-8, yang mendukung berbagai karakter dari berbagai bahasa.
+      4. <meta name="viewport" content="width=device-width, initial-scale=1.0" />: 
+      -Pengaturan untuk responsifitas desain halaman web, memungkinkan tampilan yang baik pada perangkat dengan lebar layar yang berbeda.
+      5. <link rel="stylesheet" href="./assets/CSS/index.css"> dan <link rel="stylesheet" href="./assets/CSS/login.css">: 
+      -	Menghubungkan berkas CSS eksternal ke halaman HTML. CSS ini digunakan untuk mengatur tata letak dan gaya tampilan halaman web.
+      6. <body> 
+      -	Bagian ini berisi konten aktual dari halaman web.
+      7. <div class="main-header">
+      -	Sebuah div dengan kelas "main-header" yang mungkin digunakan untuk menampung header halaman web.
+      8. <div class="navbar-header">
+      -	Sebuah div dengan kelas "navbar-header" yang mungkin digunakan untuk menampung elemen-elemen header navigasi.
+      9. <div class="icon-header"> 
+      -	Sebuah div dengan kelas "icon-header" yang mungkin digunakan untuk menampilkan ikon atau logo.
+      10. <h2 class="logo-header">VRS</h2>
+      -	Sebuah elemen heading level 2 dengan kelas "logo-header" yang mungkin digunakan untuk menampilkan teks atau logo "VRS".
+      11. <div class="menu-header"> 
+      -	Sebuah div dengan kelas "menu-header" yang mungkin digunakan untuk menampilkan menu navigasi.
+      12. <ul class="header-up">
+      -	Sebuah daftar tak-terurut (unordered list) dengan kelas "header-up" yang mungkin berisi item-item menu navigasi.
+      13. Setiap <li> (list item) mungkin berisi sebuah tautan <a> yang mengarah ke halaman-halaman terkait ("TentangVRS.html", "KontakVRS.html", "ProfileOwner.html").
+      
+      #penjelasan tentang ProfileOwner.html
+      1. <h1>Owner Profile Cards</h1>
+      -	Ini adalah elemen judul utama halaman, menunjukkan bahwa halaman ini akan menampilkan kartu profil pemilik bisnis.
+      2.<div class="card-container">...</div> 
+      -	Ini adalah wadah (container) untuk kartu-kartu profil pemilik bisnis. Kartu Profil Pemilik Bisnis: Setiap kartu memiliki gambar, nama pemilik bisnis, jabatan, universitas, dan tombol "Contact" yang              mengarah ke alamat email pemilik.
+      3.<div class="text">...</div>
+      -	Ini adalah wadah untuk informasi tambahan yang menjelaskan komitmen bisnis kepada pelanggan Pesan Informasi: Terdapat pesan yang menyatakan komitmen bisnis dalam memberikan layanan terbaik kepada                pelanggan. Juga terdapat ucapan terima kasih kepada pelanggan atas dukungan mereka.
+      4.<button>...</button>
+      -	ini adalah tombol yang mengandung tautan ("Back") yang mengarahkan pengguna kembali ke halaman utama (index.html) ketika tombol ini diklik.
 
+      #penjelasan tentang register.html
+      1. <!DOCTYPE html>
+      -Ini adalah deklarasi tipe dokumen (Document Type Declaration) untuk menyatakan bahwa dokumen ini adalah dokumen HTML5.
+      2. <html lang="en">: 
+      - Tag pembuka untuk elemen HTML. lang="en" menunjukkan bahwa konten dalam dokumen ini menggunakan bahasa Inggris (English).<head>: 
+      - Bagian ini berisi informasi-informasi meta dan tautan ke berkas eksternal seperti CSS atau JavaScript.
+      3. <meta charset="UTF-8" />: 
+      -Menginformasikan bahwa karakter encoding dokumen ini adalah UTF-8, yang mendukung berbagai karakter dari berbagai bahasa.
+      4. <meta name="viewport" content="width=device-width, initial-scale=1.0" />: 
+      -Pengaturan untuk responsifitas desain halaman web, memungkinkan tampilan yang baik pada perangkat dengan lebar layar yang berbeda.
+      
+      5. Kedua tag <link> ini menghubungkan halaman HTML ke dua file stylesheet eksternal (index.css dan register.css) 
+      6. <div class="main-header">
+      -	 Ini adalah sebuah div yang mencakup elemen-elemen yang membentuk header halaman Anda.
+      7. <div class="navbar-header">
+      -	Ini adalah div yang mendefinisikan bagian header dengan logo dan menu navigasi.
+      8. <div class="icon-header">
+      -	Ini adalah div yang menampung logo situs web, yang dalam hal ini adalah teks "VRS".
+      9. <h2 class="logo-header">VRS</h2>
+      -	Ini adalah elemen teks dengan kelas logo-header, yang mendefinisikan logo situs web.
+      10. <div class="menu-header">
+      -	Ini adalah div yang berisi menu navigasi situs web.
+      11. <ul class="header-up">
+      -	Ini adalah daftar tak berurutan (unordered list) dengan kelas header-up.
+      
+      12. <li><a href="TentangVRS.html">About Us</a></li>
+      -	Ini adalah item daftar yang merupakan tautan ke halaman "Tentang Kami".
+      13. <li><a href="KontakVRS.html">Kontak</a></li>
+      -	Ini adalah item daftar yang merupakan tautan ke halaman "Kontak".
+      14. <li><a href="ProfileOwner.html">Owner</a></li>
+      -	Ini adalah item daftar yang merupakan tautan ke halaman "Profil Pemilik".
+      15. <body>
+      16. <div class="body-register">
+      -	Ini adalah div yang mengelilingi seluruh konten halaman registrasi. Digunakan untuk memberikan gaya dan memformat area konten registrasi.
+      17. <div class="container-register"> 
+      -	Ini adalah div yang berisi semua elemen formulir registrasi pengguna.
+      18. <h2>Formulir Registrasi Pengguna</h2>
+      -	Ini adalah judul formulir yang memberi tahu pengguna bahwa ini adalah formulir registrasi pengguna.
+      19. <form action="/submit_registration" method="post">: 
+      -	Ini adalah tag <form> yang mendefinisikan awal formulir. Atribut action menentukan URL ke mana data formulir akan dikirim ketika formulir disubmit. Atribut method menentukan metode HTTP yang akan                digunakan untuk mengirimkan data formulir, dalam hal ini, metode POST digunakan.
+      20. <div class="form-groupregister">
+      -	Ini adalah div yang mengelilingi setiap elemen formulir (label dan input) untuk memberikan gaya dan tata letak.
+      21. <label for="username">Nama 
+      -	</label>: Ini adalah label untuk kolom input nama.
+      22. <input type="text" id="username" name="username" required>
+      -	Ini adalah input teks di mana pengguna dapat memasukkan nama. Atribut id digunakan untuk menghubungkan label dengan input, dan atribut name memberikan nama bidang yang akan dikirimkan saat formulir               disubmit. Atribut required menandakan bahwa input ini harus diisi sebelum formulir dapat disubmit.
+      23. Elemen-elemen yang serupa ada untuk alamat email, password, dan konfirmasi password.
+      24. <div class="form-group-register">
+      -	Ini adalah div yang mengelilingi tombol "Register" dan tautan "Back".
+      25. <button type="submit">Register</button> 
+      -	Ini adalah tombol yang, ketika ditekan, akan mengirimkan formulir ke URL yang ditentukan dalam atribut action.
+      26. <button><a href="../index.html"> Back </a></button>
+      -	Ini adalah tombol tautan yang mengarahkan pengguna kembali ke halaman utama (index.html) ketika ditekan.
 
       
       
-   
+      
+      
+            
+            
+         
    
