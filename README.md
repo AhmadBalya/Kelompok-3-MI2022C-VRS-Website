@@ -142,7 +142,7 @@ Pembuatan website ini dirancang untuk dapat diakses oleh berbagai kalangan, tanp
 
 
 3.3 Software Interface 
-Antarmuka perangkat lunak dari situs web penjualan camilan, yang telah diimplementasikan menggunakan kode HTML dan CSS di atas, merujuk pada tata letak halaman web. Halaman ini memiliki header yang mencakup Nama perusahaan, serta tombol "about us", "kontak" dan "ownwe" yang terletak di halaman utama. Latar belakangnya dirancang menarik. Konten utama halaman mencakup deskripsi yang menjelaskan produk atau layanan yang ditawarkan. Semua elemen ditata dengan rapi dan responsif, menciptakan antarmuka yang bersih dan mudah diakses. Antarmuka ini berfungsi sebagai tampilan depan situs web dan memberikan pengguna akses mudah ke layanan penyewaan kendaraan melalui tombol-tombol "Login" dan "Register" yang terdapat di halaman utama.
+Antarmuka perangkat lunak dari situs web penjualan camilan, yang telah diimplementasikan menggunakan kode HTML dan CSS di atas, merujuk pada tata letak halaman web. Halaman ini memiliki header yang mencakup Nama perusahaan, serta tombol "about us", "kontak" dan "profile owner" yang terletak di halaman utama. Latar belakangnya dirancang menarik. Konten utama halaman mencakup deskripsi yang menjelaskan produk atau layanan yang ditawarkan. Semua elemen ditata dengan rapi dan responsif, menciptakan antarmuka yang bersih dan mudah diakses. Antarmuka ini berfungsi sebagai tampilan depan situs web dan memberikan pengguna akses mudah ke layanan penyewaan kendaraan melalui tombol-tombol "Login" dan "Register" yang terdapat di halaman utama.
 
 
 3.4 Communication Interface
@@ -168,68 +168,60 @@ BAB 6. PENJELASAN HTML CSS dan JS
 
       6.1 PENJELASAN HTML
       #Penjelasan index.html:
-      1. <!DOCTYPE html>
-         - Ini adalah deklarasi dokumen HTML versi 5.
-      2. <html lang="en">
-         - Tag pembuka untuk elemen HTML. `lang="en"` menandakan bahwa bahasa yang digunakan dalam halaman adalah bahasa Inggris.
-      3. <head>
-         - Bagian kepala dokumen yang mengandung informasi-informasi metadata, seperti karakter set, viewport, judul halaman, dan referensi ke file eksternal.
-      4. <meta charset="UTF-8" />
-         - Menentukan karakter set dokumen sebagai UTF-8 untuk mendukung karakter internasional.
-      5. <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-         - Mengatur tampilan viewport untuk perangkat seluler, memastikan lebar viewport mengikuti lebar perangkat dan memberikan faktor skala awal 1.
-      6. <title>Web | Vehicle Rental Service</title>
-         - Memberikan judul untuk halaman web yang akan ditampilkan di tab atau judul jendela.
-      7. <link rel="stylesheet" href="./assets/CSS/index.css">
-         - Mengaitkan file CSS eksternal (`index.css`) ke dalam halaman HTML.
-      8. <header>
-         - Menandai bagian header dari halaman web.
-      9. <div class="main-header">
-         - Membuat div untuk header utama.
-      10. <div class="navbar-header">
-          - Membuat div untuk bagian navbar dalam header.
-      11. <div class="icon-header">
-          - Membuat div untuk menyimpan ikon atau logo dalam header.
-      12. <h2 class="logo-header">VRS</h2>
-          - Menampilkan teks atau logo (dengan kelas CSS "logo-header") sebagai bagian dari header.
-      13. <div class="menu-header">
-          - Membuat div untuk menyimpan menu navigasi dalam header.
-      14. <ul class="header-up">
-          - Membuat daftar tak berurutan (unordered list) sebagai menu navigasi.
-      15. <li><a href="TentangVRS.html">About Us</a></li>
-          - Membuat item daftar yang berisi tautan menu ke halaman "TentangVRS.html".
-      16. <li><a href="KontakVRS.html">Kontak</a></li>
-          - Membuat item daftar yang berisi tautan menu ke halaman "KontakVRS.html".
-      17. <li><a href="ProfileOwner.html">Owner</a></li>
-          - Membuat item daftar yang berisi tautan menu ke halaman "ProfileOwner.html".
-      18. <body>
-          - Menandai bagian utama dari konten halaman.
-      19. <div class="content">
-          - Membuat div untuk konten utama.
-      20. <h1>Vehicle Rental<br><span>Service</span></h1>
-          - Menampilkan judul utama halaman dengan efek patah baris di antara kata-kata "Vehicle Rental" dan "Service". Menggunakan elemen `<span>` untuk memberikan gaya khusus pada kata "Service".
-      21. <p class="par">Sewa dengan cara yang aman!<br>Gunakan website kami sekarang dan jelajahi pengalaman sewa yang terjamin keamanannya.<br>Kebutuhan Anda, prioritas kami!</p>
-          - Menampilkan paragraf dengan beberapa baris yang memberikan deskripsi tentang layanan Vehicle Rental Service.
-      22. <div class="form">
-          - Membuat div untuk area formulir atau tombol.
-      23. <h2>Account</h2>
-          - Menampilkan subjudul "Account" di dalam div.
-      24. <button class="btnn"><a href="login.html">Login </a></button>
-          - Membuat tombol dengan tautan menuju halaman "login.html".
-      25. <button class="btnn"><a href="Register.html">Register</a></button>
-          - Membuat tombol dengan tautan menuju halaman "Register.html".
-      26. </div>
-          - Tag penutup untuk div dengan kelas "form".
-      27. </div>
-          - Tag penutup untuk div dengan kelas "content".
-      28. <footer>
-          - Menandai bagian footer dari halaman.
-      29. <Button><a href="https://www.instagram.com/ahmdbalya13_/">Instagram</a></Button>
-          - Menampilkan tombol dengan tautan menuju halaman Instagram.
-      30. <Button><a href="https://www.facebook.com/ahmad.balya.diwanullatif/">Facebook</a></Button>
-          - Menampilkan tombol dengan tautan menuju halaman Facebook.
-         31. </html>
-          - Tag penutup untuk elemen HTML.
+      1. `<!DOCTYPE html>`: Ini adalah deklarasi untuk jenis dokumen HTML yang digunakan.
+
+      2. `<html lang="en">`: Ini adalah elemen root atau elemen utama dari halaman HTML. Atribut `lang="en"` menandakan bahwa halaman ini menggunakan bahasa Inggris.
+
+      3. `<head>`: Ini adalah bagian dari halaman yang digunakan untuk mengatur informasi tentang halaman, seperti metadata, judul halaman, dan menghubungkan berkas eksternal seperti CSS dan JavaScript.
+
+    - `<meta charset="UTF-8">`: Mendefinisikan karakter set dokumen sebagai UTF-8 untuk mendukung karakter internasional.
+    
+    - `<meta name="viewport" content="width=device-width, initial-scale=1.0">`: Mengatur tampilan halaman agar sesuai dengan lebar perangkat dan skala awal 1.0 (tanpa perbesaran).
+    
+    - `<title>Web | Vehicle Rental Service</title>`: Menentukan judul halaman web yang akan ditampilkan di tab peramban.
+    
+    - `<link rel="stylesheet" href="./assets/CSS/index.css">`: Menghubungkan file CSS eksternal (`index.css`) untuk mengatur tampilan halaman.
+
+      4. `<header>`: Ini adalah elemen yang menyertakan bagian header halaman, yang mencakup logo "VRS" dan menu navigasi.
+
+    - `<div class="main-header">`: Ini adalah wadah utama untuk elemen-elemen dalam header.
+
+        - `<div class="icon-header">`: Ini adalah wadah untuk logo "VRS."
+
+            - `<h2 class="logo-header">VRS</h2>`: Ini adalah teks "VRS" yang merupakan logo header.
+
+        - `<div class="menu-header">`: Ini adalah wadah untuk menu navigasi.
+
+            - `<ul class="header-up">`: Ini adalah daftar tak terurut (unordered list) yang berisi tautan menu.
+
+                - `<li><a href="TentangVRS.html">About Us</a></li>`: Ini adalah tautan ke halaman "About Us."
+                - `<li><a href="KontakVRS.html">Kontak</a></li>`: Ini adalah tautan ke halaman "Kontak."
+                - `<li><a href="ProfileOwner.html">Owner</a></li>`: Ini adalah tautan ke halaman "Owner."
+
+      5. `<body>`: Ini adalah elemen yang berisi konten utama dari halaman web.
+
+    - `<div class="content fade-in">`: Ini adalah wadah untuk konten utama, dan class "fade-in" akan memicu animasi fade-in pada elemen ini.
+
+        - `<h1>Vehicle Rental<br><span>Service</span></h1>`: Ini adalah judul utama halaman web dengan beberapa elemen HTML yang dibuat.
+
+        - `<p class="par">...`: Ini adalah paragraf yang berisi teks deskripsi tentang layanan yang ditawarkan oleh situs web.
+
+    - `<div class="form">`: Ini adalah wadah untuk elemen-elemen dalam formulir.
+
+        - `<h2>Account</h2>`: Ini adalah subjudul yang berjudul "Account."
+
+        - `<button class="btnn"><a href="login.html">Login</a></button>`: Ini adalah tombol untuk mengarahkan pengguna ke halaman "Login."
+
+        - `<button class="btnn"><a href="Register.html">Register</a></button>`: Ini adalah tombol untuk mengarahkan pengguna ke halaman "Register."
+
+    - `<script src="/assets/JS/index.js"></script>`: Ini adalah elemen JavaScript yang mengacu pada berkas eksternal `index.js` yang digunakan untuk mengatur animasi fade-in.
+
+      6. `<footer>`: Ini adalah elemen yang berisi informasi di bagian bawah halaman web.
+
+    - `<Button><a href="https://www.instagram.com/ahmdbalya13_/">Instagram</a></Button>`: Ini adalah tautan ke halaman Instagram.
+
+    - `<Button><a href="https://www.facebook.com/ahmad.balya.diwanullatif/">Facebook</a></Button>`: Ini adalah tautan ke halaman Facebook.
+
 
       #Penjelasan KontakVRS.html:
       1. <!DOCTYPE html>
@@ -457,71 +449,30 @@ BAB 6. PENJELASAN HTML CSS dan JS
 
       6.2 PENJELASAN CSS
       #Penjelasan index.css:
-      1. * { margin: 0; padding: 0; }
-         - Selector universal untuk menghilangkan margin dan padding secara default pada semua elemen.
-      2. body { ... }
-         - Pengaturan untuk elemen `body`:
-           - `display: flex;`: Menggunakan model tata letak flex.
-           - `min-height: 100vh;`: Menetapkan tinggi minimum 100% dari tinggi viewport.
-           - `background-image: url(/assets/gambar/mobilhd.png);`: Menetapkan gambar latar belakang.
-           - `background-size: cover;`: Mengatur ukuran gambar latar belakang agar mencakup seluruh area.
-           - `background-position: center;`: Menetapkan posisi gambar latar belakang di tengah.
-           - `background-repeat: no-repeat;`: Menetapkan agar gambar latar belakang tidak diulang.
-      3. .background { ... }
-         - Pengaturan untuk elemen dengan kelas "background":
-           - `display: none;`: Elemen ini awalnya disembunyikan.
-      4. .main-header { ... }
-         - Pengaturan untuk elemen dengan kelas "main-header":
-           - `background-color: rgba(5, 5, 5, 0.49);`: Warna latar belakang dengan opacity.
-           - `height: 10vh;`: Tinggi elemen 10% dari tinggi viewport.
-           - `width: relative;`: Kesalahan penulisan, seharusnya `width: auto;` atau dihapus.
-           - `background-repeat: no-repeat;`: Menetapkan agar gambar latar belakang tidak diulang.
-      5. .navbar-header { ... }
-         - Pengaturan untuk elemen dengan kelas "navbar-header":
-           - `width: 1200px;`: Lebar elemen 1200 piksel.
-           - `height: 75px;`: Tinggi elemen 75 piksel.
-           - `margin: auto;`: Elemen ini ditengahkan secara horizontal.
-      6. .icon-header { ... }
-         - Pengaturan untuk elemen dengan kelas "icon-header":
-           - `width: 200px;`: Lebar elemen 200 piksel.
-           - `float: left;`: Membuat elemen melayang di sebelah kiri.
-      7. .logo-header { ... }
-         - Pengaturan untuk elemen dengan kelas "logo-header":
-           - `color: #ff7200;`: Warna teks.
-           - `font-size: 35px;`: Ukuran teks.
-           - `font-family: Arial;`: Jenis huruf.
-           - `padding-left: 20px;`: Padding pada sisi kiri.
-           - `float: left;`: Membuat elemen melayang di sebelah kiri.
-           - `padding-top: 10px;`: Padding di bagian atas.
-           - `margin-top: 5px;`: Margin di bagian atas.
-      8. .menu-header { ... }
-         - Pengaturan untuk elemen dengan kelas "menu-header":
-           - `width: 400px;`: Lebar elemen 400 piksel.
-           - `float: left;`: Membuat elemen melayang di sebelah kiri.
-           - `height: 70px;`: Tinggi elemen 70 piksel.
-      9. ul { ... }
-         - Pengaturan untuk elemen `ul` (daftar tak berurutan):
-           - `float: left;`: Membuat elemen melayang di sebelah kiri.
-           - `display: flex;`: Menggunakan model tata letak flex.
-           - `justify-content: center;`: Mengatur penataan ke tengah secara horizontal.
-           - `align-items: center;`: Mengatur penataan ke tengah secara vertikal.
-           - `text-decoration: underline;`: Garis bawah pada tautan.
-      10. ul li { ... }
-          - Pengaturan untuk elemen `li` di dalam elemen `ul`:
-            - `list-style: none;`: Menghilangkan gaya daftar.
-            - `margin-left: 62px;`: Margin di sisi kiri.
-            - `margin-top: 27px;`: Margin di bagian atas.
-            - `font-size: 14px;`: Ukuran teks.
-      11. ul li a { ... }
-          - Pengaturan untuk tautan di dalam elemen `li`:
-            - `text-decoration: none;`: Menghilangkan dekorasi tautan.
-            - `color: #fff;`: Warna teks.
-            - `font-family: Arial;`: Jenis huruf.
-            - `font-weight: bold;`: Ketebalan teks.
-            - `transition: 0.4s ease-in-out;`: Efek transisi.
-      12. ul li a:hover { ... }
-          - Pengaturan saat tautan di-hover:
-            - `color: #ff7200;`: Warna teks berubah saat di-hover.
+      1. `*{ ... }`: Ini mengatur margin dan padding ke 0 untuk semua elemen di halaman, memastikan tidak ada spasi tambahan di sekitar elemen-elemen tersebut.
+
+      2. `body { ... }`: Ini mengatur properti gaya untuk elemen body, termasuk tata letak, latar belakang, dan beberapa properti lainnya.
+
+      3. `.background { ... }`: Ini adalah kelas yang menyembunyikan elemen gambar yang sebenarnya dengan `display: none`.
+
+      4. `.main-header { ... }`: Mengatur properti gaya untuk elemen header utama, termasuk warna latar belakang, tata letak, dan dimensi.
+
+      5. `.navbar-header { ... }`: Ini mengatur properti gaya untuk bagian header navigasi, termasuk lebar, tinggi, dan tata letak.
+
+      6. `.icon-header { ... }`, `.logo-header { ... }`, `.menu-header { ... }`, `ul { ... }`, `ul li { ... }`, `ul li a { ... }`: Semuanya adalah bagian dari navigasi header dan mengatur properti gaya untuk elemen-elemen di dalamnya, seperti warna, tata letak, dan properti lainnya.
+
+      7. `.search { ... }`, `.srch { ... }`, `.btn { ... }`, `.btn:hover { ... }`, `.btn:focus { ... }`, `.srch:focus { ... }`: Ini adalah bagian dari elemen formulir dan mengatur properti gaya untuk elemen-elemen di dalamnya, seperti ukuran, warna, dan animasi.
+
+      8. `.content { ... }`, `.content .par { ... }`, `.content h1 { ... }`, `.content .cn { ... }`, `.content span { ... }`: Ini mengatur properti gaya untuk konten utama di halaman, termasuk ukuran font, warna, dan tata letak.
+
+      9. `.form { ... }`, `.form h2 { ... }`, `.form input { ... }`, `.form input:focus { ... }`, `::placeholder { ... }`, `.btnn { ... }`, `.btnn:hover { ... }`, `.btnn a { ... }`, `.form .link { ... }`, `.form .link a { ... }`, `.liw { ... }`: Semuanya adalah bagian dari elemen formulir, mengatur properti gaya untuk elemen-elemen di dalamnya, seperti tata letak, warna, dan ukuran.
+
+      10. `.icons a { ... }`, `.icons ion-icon { ... }`, `.icons ion-icon:hover { ... }`: Ini adalah bagian dari ikon dan mengatur properti gaya untuk ikon-ikon tersebut, termasuk ukuran, warna, dan animasi.
+
+      11. `@keyframes fadeIn { ... }`, `.fade-in { ... }`: Ini adalah bagian dari animasi fade-in, yang mengatur opacity untuk membuat elemen tampil secara perlahan di halaman web.
+
+      12. `footer { ... }`, `footer button { ... }`, `button a { ... }`, `button:hover { ... }`: Semuanya adalah bagian dari footer halaman, mengatur properti gaya untuk elemen-elemen di dalamnya, termasuk tata letak, warna, dan ukuran.
+
 
       #Penjelasan StyleKontakVRS.css:
       1. body { ... }
@@ -806,10 +757,43 @@ BAB 6. PENJELASAN HTML CSS dan JS
       21.	position: relative
       -Mengatur posisi kontainer secara relatif terhadap posisi normalnya.
 
-      
-      
-      
+      6.3 Penjelasan JS
+      #Penjelasan index.js:
+      1. `const btn = document.querySelector('.btnn');`: Ini adalah langkah awal untuk mengambil elemen tombol dengan kelas "btnn" dari halaman HTML dan menyimpannya dalam variabel `btn`.
 
+      2. Event listener untuk menghandle saat tombol di-hover:
 
+      btn.addEventListener('mouseover', () => {
+     // Saat mouse di-hover, kode ini mengubah beberapa properti tampilan tombol.
+     btn.style.backgroundColor = '#fff'; // Mengubah warna latar belakang menjadi putih.
+     btn.style.color = '#ff7200'; // Mengubah warna teks menjadi oranye.
+     btn.style.transform = 'scale(1.05)'; // Memperbesar ukuran tombol.
+      });
+   
+      - Saat mouse di-hover pada tombol, event listener akan mendeteksi peristiwa tersebut.
+      - Kemudian, kode dalam blok fungsi dijalankan, yang mengubah beberapa properti tampilan tombol. Ini termasuk mengubah warna latar belakang menjadi putih (`#fff`), warna teks menjadi oranye (`#ff7200`), dan memperbesar ukuran tombol menggunakan transformasi CSS.
 
+      3. Event listener untuk menghandle saat mouse meninggalkan tombol:
 
+      btn.addEventListener('mouseout', () => {
+     // Kode ini mengembalikan tombol ke gaya awal saat mouse meninggalkannya.
+     btn.style.backgroundColor = '#ff7200'; // Mengembalikan warna latar belakang ke oranye.
+     btn.style.color = '#fff'; // Mengembalikan warna teks ke putih.
+     btn.style.transform = 'scale(1)'; // Mengembalikan ukuran tombol ke ukuran aslinya.
+      });
+   
+      - Saat mouse meninggalkan tombol, event listener ini akan menangani peristiwa tersebut.
+      - Kode dalam blok fungsi akan mengembalikan tampilan tombol ke gaya awalnya. Ini termasuk mengembalikan warna latar belakang ke oranye (`#ff7200`), warna teks ke putih (`#fff`), dan ukuran tombol ke ukuran aslinya.
+
+      4. `document.addEventListener("DOMContentLoaded", function () { ... });`: Ini adalah event listener yang mendengarkan peristiwa saat dokumen HTML telah selesai dimuat. Ini digunakan untuk memastikan bahwa semua elemen HTML telah dimuat sebelum menjalankan kode JavaScript lebih lanjut.
+
+      5. `const elementsToAnimate = document.querySelectorAll(".fade-in");`: Kode ini mencari dan memilih semua elemen yang memiliki kelas "fade-in" pada halaman dan menyimpannya dalam variabel `elementsToAnimate`.
+
+      6. Animasi fade-in:
+   
+      elementsToAnimate.forEach((element) => {
+       element.classList.add("fade-in");
+      });
+  
+      - Setelah menemukan elemen-elemen yang memiliki kelas "fade-in," kode ini mengiterasi melalui semua elemen tersebut menggunakan metode `forEach`.
+      - Di dalam iterasi ini, kelas "fade-in" ditambahkan ke setiap elemen. Ini akan memicu animasi fade-in pada elemen-elemen tersebut, mengubah opacity dari 0 (seperti tersembunyi) menjadi 1 (seperti terlihat) secara perlahan.
