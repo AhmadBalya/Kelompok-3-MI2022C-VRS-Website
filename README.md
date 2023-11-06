@@ -115,6 +115,7 @@ Fungsi-fungsi ini membantu menciptakan pengalaman yang lebih baik bagi pelanggan
 
 
 2.4 Lingkungan Operasi 
+
 <img width="492" alt="Screenshot 2023-11-06 201403" src="https://github.com/22091397095-AhmadBalyaDiwanullatifMIC22/Kelompok-3-MI2022C-VRS-Website/assets/124552644/96b7c45a-0b74-41c2-b985-47cded421cfd">
 
 
