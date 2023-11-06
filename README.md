@@ -162,7 +162,7 @@ BAB 5. NON FUNCTIONAL REQUIREMENTS
 ![image](https://github.com/22091397095-AhmadBalyaDiwanullatifMIC22/Kelompok-3-MI2022C-VRS-Website/assets/114341153/05917f93-a16f-49fb-a7e9-0114a3d89f3c)
 
 
-BAB 6. PENJELASAN HTML CSS
+BAB 6. PENJELASAN HTML CSS dan JS
 
       6.1 PENJELASAN HTML
       #Penjelasan index.html:
