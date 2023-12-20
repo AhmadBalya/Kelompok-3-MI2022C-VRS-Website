@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 :root{
-    --color1:#FFC947;
+    --color1:#FDB827;
     --light-color1:#f9eaf2;
     --color2:#151226;
     --light-color:#666;
     --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
     --border:.1rem solid rgba(0,0,0,.1);
     --secondary-color: #151226;
-    --contrast-color: #FFC947;
+    --contrast-color: #FDB827;
 }
 
 *{
@@ -118,7 +118,7 @@ section{
     content: "";
     height: 2px;
     position: absolute;
-    background-color: #e560a9;
+    background-color: #FFE459;
     bottom: -7px;
     left: 10px;
     right: 10px;
@@ -448,7 +448,7 @@ section{
 }
 .about-left h4{
     font-size: 20px;
-    color: #ec3323;
+    color: #FFE459;
     margin-bottom: 10px;
     display: block;
     font-weight: 500;
