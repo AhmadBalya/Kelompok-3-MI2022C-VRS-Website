@@ -515,7 +515,7 @@ section{
 }
 .newsletter{
     padding:6rem 2rem;
-    background: url(../image/letter-bg.png) no-repeat;
+    background: url(/assets/image/letter-bg.png) no-repeat;
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -715,7 +715,7 @@ section{
 
 .Box_all {
     display: flex;
-    background-image: url(../image/letter-bg.png);
+    background-image: url(/assets/image/letter-bg.png);
    background-size: cover;
    /* background-color: #f9eaf2; */
    
