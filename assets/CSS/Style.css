@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 :root{
-    --color1:#bf307f;
+    --color1:#FFC947;
     --light-color1:#f9eaf2;
     --color2:#151226;
     --light-color:#666;
     --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
     --border:.1rem solid rgba(0,0,0,.1);
     --secondary-color: #151226;
-    --contrast-color: #bf307f;
+    --contrast-color: #FFC947;
 }
 
 *{
@@ -118,7 +118,7 @@ section{
     content: "";
     height: 2px;
     position: absolute;
-    background-color: #d26ea5;
+    background-color: #e560a9;
     bottom: -7px;
     left: 10px;
     right: 10px;
