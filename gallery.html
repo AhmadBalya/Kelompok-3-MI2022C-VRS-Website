@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!--  animation alert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+
+    <header class="header">
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"> <span>VehicleRental</span>Service</a>
+
+        <nav class="navbar">
+            <a href="admin/index.html">home</a>
+            <a href="gallery.html">gallery</a>
+            <a href="Resvation.html">Resrvation</a>
+            <a href="Contact.html">contact</a>
+            <a href="admin/hal_admin.php">hal admin</a>
+            <a href="../logout.php">Logout</a>
+        </nav>
+
+    </header>
+
+    <div class="login-form-container">
+
+        <span id="close-login-form" class="fas fa-times"></span>
+
+        <form action="">
+            <h3>user login</h3>
+            <input type="email" placeholder="email" class="box">
+            <input type="password" placeholder="password" class="box">
+            <p> forget your password <a href="#">click here</a> </p>
+            <input type="submit" value="login" class="btn">
+            <p>or login with</p>
+            <div class="buttons">
+                <a href="#" class="btn"> google </a>
+                <a href="#" class="btn"> facebook </a>
+            </div>
+            <p> don't have an account <a href="#">create one</a> </p>
+        </form>
+
+    </div>
+
+    <section class="home" id="home">
+
+        <h1 class="heading"><span>Best</span> Offers</h1>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="about-left">
+                    <h4>World vehicle rental</h4>
+                    <h2>Welcome to RentNow</h2>
+                    <p>Discover RentNow Rental Agency Located , This Agency Offers You A Wide Range Of
+                        Cars And Allows You To Have A Pleasant Stay In Morocco,Russia,algeria,USA,france,japan Through Car Rental. Among All Rental
+                        Agencies In World, Choose RentNow.Our Rental vehicle Catalog To Make An Online Reservation When
+                        You Have Chosen Your Car Easily And Quickly.</p>
+                </div>
+            </div>
+            <div class="bg-gallery">
+                <div class="about">
+                    <img class="img-gallery" src="./assets/image/Home.png" alt="">
+                </div>
+            </div>
+
+    </section>
+
+
+    <!--  C A R S  -->
+
+    <section class="featured" id="featured">
+
+        <h1 class="heading"> <span>Our</span> Cars </h1>
+
+        <div class="swiper featured-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="./assets/image/Fotuner.png" alt="">
+                    <div class="content">
+                        <h3>Toyota Fortuner</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="type">
+                            <ul>
+                                <li title=""><i class="fas fa-cog"></i> manual</li>
+                                <li title=""><i class="fa fa-male"></i> 6 Penumpang </li>
+                                <li title=""><i class="fa fa-tint"></i> Diesel</li>
+                            </ul>
+                        </div>
+
+                        <div class="price">Rp. 500.000/<span style="color:#ec3323;">Day</span></div>
+                        <a href="/Resvation.html" class="btn">check out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./assets/image/Hilux.png" alt="">
+                    <div class="content">
+                        <h3>Toyota Hilux</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="type">
+                            <ul>
+                                <li title=""><i class="fas fa-cog"></i> manual</li>
+                                <li title=""><i class="fa fa-male"></i> 5 Penumpang </li>
+                                <li title=""><i class="fa fa-tint"></i> Diesel</li>
+                            </ul>
+                        </div>
+                        <div class="product-itmes">
+
+                        </div>
+                        <div class="price">Rp. 400.000/<span style="color:#ec3323;">Day</span></div>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./assets/image/Daihatsu Ayla.png" alt="">
+                    <div class="content">
+                        <h3>Daihatsu Ayla</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="type">
+                            <ul>
+                                <li title=""><i class="fas fa-cog"></i> manual</li>
+                                <li title=""><i class="fa fa-male"></i> 4 Penumpang </li>
+                                <li title=""><i class="fa fa-tint"></i> Bensin</li>
+                            </ul>
+                        </div>
+                        <div class="price">250.000/<span style="color:#ec3323;">Day</span></div>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./assets/image/elf.png" alt="">
+                    <div class="content">
+                        <h3>Isuzu ELF</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+
+                        </div>
+                        <div class="type">
+                            <ul>
+                                <li title=""><i class="fas fa-cog"></i> manual</li>
+                                <li title=""><i class="fa fa-male"></i> 19 Penumpang </li>
+                                <li title=""><i class="fa fa-tint"></i> Diesel</li>
+                            </ul>
+                        </div>
+                        <div class="price">600.000/<span style="color:#ec3323;">Day</span></div>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+        <div class="swiper featured-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="./assets/image/Honda Civic.png" alt="">
+                    <div class="content">
+                        <h3>Honda Civic</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="type">
+                            <ul>
+                                <li title=""><i class="fas fa-cog"></i> matic</li>
+                                <li title=""><i class="fa fa-male"></i> 4 Penumpang </li>
+                                <li title=""><i class="fa fa-tint"></i> Bensin</li>
+                            </ul>
+                        </div>
+                        <div class="price">Rp. 500.000/<span style="color:#ec3323;">Day</span></div>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./assets/image/APV (2).png" alt="">
+                    <div class="content">
+                        <h3>Suzuki APV</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="type">
+                            <ul>
+                                <li title=""><i class="fas fa-cog"></i> manual</li>
+                                <li title=""><i class="fa fa-male"></i> 8 Penumpang </li>
+                                <li title=""><i class="fa fa-tint"></i> Bensin</li>
+                            </ul>
+                        </div>
+                        <div class="price">Rp. 400.000/<span style="color:#ec3323;">Day</span></div>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./assets/image/Innova.png" alt="">
+                    <div class="content">
+                        <h3>Toyota Innova</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="type">
+                            <ul>
+                                <li title=""><i class="fas fa-cog"></i> manual</li>
+                                <li title=""><i class="fa fa-male"></i> 6 Penumpang </li>
+                                <li title=""><i class="fa fa-tint"></i> Diesel/Bensin</li>
+                            </ul>
+                        </div>
+                        <div class="price">Rp. 450.000/<span style="color:#ec3323;">Day</span></div>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./assets/image/Toyota Vios.png" alt="">
+                    <div class="content">
+                        <h3>Toyota Vios</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="type">
+                            <ul>
+                                <li title=""><i class="fas fa-cog"></i> manual</li>
+                                <li title=""><i class="fa fa-male"></i> 4 Penumpang </li>
+                                <li title=""><i class="fa fa-tint"></i> Bensin</li>
+                            </ul>
+                        </div>
+                        <div class="price">Rp. 250.000/<span style="color:#ec3323;">Day</span></div>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+        <!-- 
+            MOTO 
+      -->
+      <h1 class="heading"> <span>Moto</span> featured </h1>
+
+      <div class="swiper featured-slider">
+
+          <div class="swiper-wrapper">
+
+              <div class="swiper-slide box">
+                  <img src="./assets/image/Beat.png" alt="">
+                  <div class="content">
+                      <h3>Honda Beat</h3>
+                      <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half-alt"></i>
+                      </div>
+                      <div class="type">
+                          <ul>
+                              <li title=""><i class="fas fa-cog"></i> Matic</li>
+                              <li title=""><i class="fa fa-male"></i> 2 Penumpang </li>
+                              <li title=""><i class="fa fa-tint"></i> Bensin</li>
+                          </ul>
+                      </div>
+                      <div class="price">Rp. 65.000/<span style="color:#ec3323;">Day</span></div>
+                      <a href="#" class="btn">check out</a>
+                  </div>
+              </div>
+
+              <div class="swiper-slide box">
+                  <img src="./assets/image/scoopy.png" alt="">
+                  <div class="content">
+                      <h3>Scoopy</h3>
+                      <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half-alt"></i>
+                      </div>
+                      <div class="type">
+                          <ul>
+                              <li title=""><i class="fas fa-cog"></i> Matic</li>
+                              <li title=""><i class="fa fa-male"></i> 2 Penumpang </li>
+                              <li title=""><i class="fa fa-tint"></i> Bensin</li>
+                          </ul>
+                      </div>
+                      <div class="price">Rp. 70.000/<span style="color:#ec3323;">Day</span></div>
+                      <a href="#" class="btn">check out</a>
+                  </div>
+              </div>
+
+              <div class="swiper-slide box">
+                  <img src="./assets/image/vario.png" alt="">
+                  <div class="content">
+                      <h3>Vario</h3>
+                      <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half-alt"></i>
+                      </div>
+                      <div class="type">
+                          <ul>
+                              <li title=""><i class="fas fa-cog"></i> Matic</li>
+                              <li title=""><i class="fa fa-male"></i> 2 Penumpang </li>
+                              <li title=""><i class="fa fa-tint"></i> Bensin</li>
+                          </ul>
+                      </div>
+                      <div class="price">Rp. 85.000/<span style="color:#ec3323;">Day</span></div>
+                      <a href="#" class="btn">check out</a>
+                  </div>
+              </div>
+
+              <div class="swiper-slide box">
+                  <img src="./assets/image/Mio.png" alt="">
+                  <div class="content">
+                      <h3>Yamaha Mio</h3>
+                      <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half-alt"></i>
+                      </div>
+                      <div class="type">
+                          <ul>
+                              <li title=""><i class="fas fa-cog"></i> Matic</li>
+                              <li title=""><i class="fa fa-male"></i> 2 Penumpang </li>
+                              <li title=""><i class="fa fa-tint"></i> Bensin</li>
+                          </ul>
+                      </div>
+                      <div class="price">Rp. 50.000 /<span style="color:#ec3323;">Day</span></div>
+                      <a href="#" class="btn">check out</a>
+                  </div>
+              </div>
+          </div>
+            <!-- 
+             
+          -->
+
+          <div class="swiper-pagination"></div>
+
+        </div>
+
+        <div class="swiper featured-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="./assets/image/pcx.png" alt="">
+                    <div class="content">
+                        <h3>Honda PCX</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="type">
+                            <ul>
+                                <li title=""><i class="fas fa-cog"></i> Matic</li>
+                                <li title=""><i class="fa fa-male"></i> 2 Penumpang </li>
+                                <li title=""><i class="fa fa-tint"></i> Bensin</li>
+                            </ul>
+                        </div>
+                        <div class="price">Rp. 100.000/<span style="color:#ec3323;">Day</span></div>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./assets/image/nmax.png" alt="">
+                    <div class="content">
+                        <h3>Yamaha N-Max</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="type">
+                            <ul>
+                                <li title=""><i class="fas fa-cog"></i> Matic</li>
+                                <li title=""><i class="fa fa-male"></i> 2 Penumpang </li>
+                                <li title=""><i class="fa fa-tint"></i> Bensin</li>
+                            </ul>
+                        </div>
+                        <div class="price">Rp. 100.000/<span style="color:#ec3323;">Day</span></div>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./assets/image/r15.png" alt="">
+                    <div class="content">
+                        <h3>Yamaha R6</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="type">
+                            <ul>
+                                <li title=""><i class="fas fa-cog"></i> Manual</li>
+                                <li title=""><i class="fa fa-male"></i> 2 Penumpang </li>
+                                <li title=""><i class="fa fa-tint"></i> Bensin</li>
+                            </ul>
+                        </div>
+                        <div class="price">Rp. 300.000/<span style="color:#ec3323;">Day</span></div>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./assets/image/cbr.png" alt="">
+                    <div class="content">
+                        <h3>Honda CBR</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="type">
+                            <ul>
+                                <li title=""><i class="fas fa-cog"></i> Manual </li>
+                                <li title=""><i class="fa fa-male"></i> 2 Penumpang </li>
+                                <li title=""><i class="fa fa-tint"></i> Bensin</li>
+                            </ul>
+                        </div>
+                        <div class="price">Rp. 150.000/<span style="color:#ec3323;">Day</span></div>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 
+             camion and big
+          -->
+          <h1 class="heading"> <span>Our</span> Bigvehicles</h1>
+
+          <div class="swiper featured-slider">
+
+              <div class="swiper-wrapper">
+
+                  <div class="swiper-slide box">
+                      <img src="./assets/image/elf.png" alt="">
+                      <div class="content">
+                          <h3>Isuzu ELF</h3>
+                          <div class="stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star-half-alt"></i>
+                          </div>
+                          <div class="type">
+                              <ul>
+                                  <li title=""><i class="fas fa-cog"></i> Manual </li>
+                                  <li title=""><i class="fa fa-male"></i> 19 Penumpang </li>
+                                  <li title=""><i class="fa fa-tint"></i> Solar</li>
+                              </ul>
+                          </div>
+                          <div class="price">Rp. 400.000/<span style="color:#ec3323;">Day</span></div>
+                          <a href="#" class="btn">check out</a>
+                      </div>
+                  </div>
+
+                  <div class="swiper-slide box">
+                      <img src="./assets/image/APV (2).png" alt="">
+                      <div class="content">
+                          <h3>Suzuki APV</h3>
+                          <div class="stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star-half-alt"></i>
+                          </div>
+                          <div class="type">
+                              <ul>
+                                  <li title=""><i class="fas fa-cog"></i> Manual</li>
+                                  <li title=""><i class="fa fa-male"></i> 8 Penumpang </li>
+                                  <li title=""><i class="fa fa-tint"></i> Bensin</li>
+                              </ul>
+                          </div>
+                          <div class="price">Rp. 400.000/<span style="color:#ec3323;">Day</span></div>
+                          <a href="#" class="btn">check out</a>
+                      </div>
+                  </div>
+
+                  <div class="swiper-slide box">
+                      <img src="./assets/image/Hiace.png" alt="">
+                      <div class="content">
+                          <h3>Toyota Hiace</h3>
+                          <div class="stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star-half-alt"></i>
+                          </div>
+                          <div class="type">
+                              <ul>
+                                  <li title=""><i class="fas fa-cog"></i> Manual</li>
+                                  <li title=""><i class="fa fa-male"></i> 16 Penumpang </li>
+                                  <li title=""><i class="fa fa-tint"></i> Diesel</li>
+                              </ul>
+                          </div>
+                          <div class="price">Rp.1.200.000 /<span style="color:#ec3323;">Day</span></div>
+                          <a href="#" class="btn">check out</a>
+                      </div>
+                  </div>
+
+                  <div class="swiper-slide box">
+                      <img src="./assets/image/box.png" alt="">
+                      <div class="content">
+                          <h3>Carry Box</h3>
+                          <div class="stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star-half-alt"></i>
+                          </div>
+                          <div class="type">
+                              <ul>
+                                  <li title=""><i class="fas fa-cog"></i> Manual</li>
+                                  <li title=""><i class="fa fa-male"></i> 3 </li>
+                                  <li title=""><i class="fa fa-tint"></i> Bensin</li>
+                              </ul>
+                          </div>
+                          <div class="price">Rp. 300.000/<span style="color:#ec3323;">Day<span></div>
+                          <a href="#" class="btn">check out</a>
+                      </div>
+                  </div>
+              </div>
+             
+
+    <!-- F O T R  -->
+
+    <section class="footer" id="footer">
+
+        <div class="box-container">
+    
+            <div class="box">
+                <h3>Cabang Kita</h3>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Surabaya</a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Madura </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Bandung </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Sidoarjo </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Medan </a>
+            </div>
+    
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> gallery </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> Resrvation </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> contact </a>
+            </div>
+    
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"> <i class="fas fa-phone"></i> 0813 3471 2470 </a>
+                <a href="#"> <i class="fas fa-phone"></i> 0813 5802 4205 </a>
+                <a href="#"> <i class="fas fa-envelope"></i> abdiabdi12321@gmail.com</a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Jombang   </a>
+            </div>
+    
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+                <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+                <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+                <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+            </div>
+    
+        </div>
+    
+         <div  class="credit"> created by <i herf="" class="fab fa-instagram"> Kelompok 3 </i> | all rights
+                reserved </div>
+
+    </section>
+    
+    
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    
+    <script src="js/script.js"></script>
+
+
+    </section>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+</head>
+
+<body>
