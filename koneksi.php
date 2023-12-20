@@ -7,3 +7,4 @@ $database = "db_vehiclerentalservices"; // Ganti dengan nama database Anda
 
 // Membuat koneksi ke database
 $conn = mysqli_connect($host, $username, $password, $database);
+?>
