@@ -494,7 +494,7 @@ section{
     display: inline-block;
 }
 .type ul li i {
-    color: #e91e63;
+    color: #FFE459;
 
 }
 /* 
@@ -674,7 +674,7 @@ section{
     position: absolute;
     left: 0;
     bottom: 0px;
-    background-color: #e91e63;
+    background-color: #FFE459;
     height: 3px;
     box-sizing: border-box;
     width: 50px;
