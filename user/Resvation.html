@@ -52,7 +52,6 @@
                 <a href="#" class="btn"> google </a>
                 <a href="#" class="btn"> facebook </a>
             </div>
-            <p> don't have an account <a href="#">create one</a> </p>
         </form>
 
     </div>
@@ -76,13 +75,9 @@
                         <label class="title">Vehicle<label><br>
                                 <select class="inp" id="vehicle" onchange="CheckTypevehicle()">
                                     <option>choice a type</option>
-                                    <option value="Moto"> Moto</option>
-                                    <option value="Citadine"> Citadine</option>
-                                    <option value="Compact"> Compact</option>
-                                    <option value="Utilitaire"> Utilitaire</option>
-                                    <option value="Engin de chantier"> Engin de chantier</option>
-                                    <option value="Berline">Berline</option>
-                                    <option value="Camion">Camion</option>
+                                    <option value="Moto"> MotorCyle</option>
+                                    <option value="Moto"> Cars</option>
+                                    
                                 </select>
                     </div>
 
@@ -90,13 +85,18 @@
                         <label class="title">Gear box</label>
                         <select class="inp" id="boite_av" onchange="chekBoite()">
                             <option>choice a option</option>
+                            <option value="Moto"> Matic</option>
+                            <option value="Moto"> Manual</option>
+                            
                         </select>
                     </div>
                     <div class="slt Stl_carburant">
                         <label class="title">Carburant</label>
                         <select class="inp" id="carburant" onchange="chekCarburant()">
                             <option>choice your carburant </option>
-                            
+                            <option>Solar</option>
+                            <option>Bensin</option>
+                    
                         </select>
                     </div>
 
@@ -158,7 +158,7 @@
                     <img src="/assets/image/pic-2.png" alt="">
                     <div class="content">
                         <p>Saya adalah pelanggan setia karena layanan pelanggan yang luar biasa dan mobil yang selalu dalam kondisi baik. Mereka sangat responsif terhadap pertanyaan dan permintaan. Saya tidak ragu untuk merekomendasikan kepada teman dan keluarga.</p>
-                        <h3>Erika</h3>
+                        <h3>Auliya</h3>
                         <div class="stars">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -284,99 +284,6 @@
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     
     <script src="/assets/js/script.js"></script>
-    </section>
-
-    <script>
-        var prix = 0;
-        var totale = 0;
-        function CheckTypevehicle() {
-
-            var Choix = document.getElementById("vehicle").value;
-            switch (Choix) {
-                case "Citadine": document.getElementById("boite_av").innerHTML = "<option> Manuelle</option>";
-                    document.getElementById("carburant").innerHTML = "<option> Essence</option> <option> Diesel</option> <option> Electrique</option> <option> Hybride</option>";
-                    prix = 12;
-
-                    break;
-                case "Compact": document.getElementById("boite_av").innerHTML = "<option> Manuelle</option>";
-                    document.getElementById("carburant").innerHTML = "<option> Essence</option> <option> Diesel</option>  <option> Hybride</option>";
-                    prix = 14;
-                    break;
-
-                case "Utilitaire": document.getElementById("boite_av").innerHTML = "<option> Manuelle</option>";
-                    document.getElementById("carburant").innerHTML = " <option> Diesel</option>  ";
-                    prix = 16;
-                    break;
-
-                case "Engin de chantier": document.getElementById("boite_av").innerHTML = "<option> Manuelle</option>";
-                    document.getElementById("carburant").innerHTML = "<option> Essence</option> <option> Diesel</option> ";
-                    prix = 900;
-                    break;
-
-                case "Berline": document.getElementById("boite_av").innerHTML = "<option> Automatique</option>";
-                    document.getElementById("carburant").innerHTML = "<option> Essence</option> <option> Diesel</option>  <option> Hybride</option>";
-                    prix = 20;
-                    break;
-
-                case "Camion": document.getElementById("boite_av").innerHTML = "<option> Automatique</option>";
-                    document.getElementById("carburant").innerHTML = " <option> Diesel</option> ";
-                    prix = 250;
-                    break;
-                case "Moto":
-                    document.getElementById("carburant").innerHTML = " <option> Essence</option> <option> Electrique</option> ";
-                    prix = 10;
-                    break;
-            }
-
-        }
-        var carburant=0;
-        function chekCarburant() {
-            let carb = document.getElementById("carburant").value;
-            console.log(carb);
-            switch (carb) {
-                case "Essence": carburant = 0.14;
-                    break;
-
-                case "Hybride": carburant = 0.09;
-                    break;
-
-                case "Diesel": carburant = 0.21;
-                    break;
-
-                case "Electrique": carburant = 0.05;
-                    break;
-               
-            }
-           
-
-        }
-
-        let GearBox =0;
-        function chekBoite() {
-            var boite = document.getElementById("carburant").value;
-            switch (carb) {
-                case "Manuelle": GearBox = 0;
-                    break;
-
-                case "Automatique": GearBox = 0.19;
-                    break;
-            }
-           
-        }
-
-        function calcul() {
-            var NomberDay = document.getElementById("Number_Of_Days").value;
-            
-            totale = NomberDay * (prix + (prix * carburant) + (prix * GearBox)) + " $";
-           
-            document.getElementById("Total_Amount").value = totale;    
-        }
-
-        document.getElementById("BottonCalculate").addEventListener("click", calcul);
-
-
-    </script>
-
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="/assets/js/script.js"></script>
 </body>

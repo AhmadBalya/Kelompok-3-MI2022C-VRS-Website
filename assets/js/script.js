@@ -1,6 +1,7 @@
 let menu = document.querySelector('#menu-btn');
 let navbar = document.querySelector('.navbar');
 
+
 menu.onclick = () =>{
   menu.classList.toggle('fa-times');
   navbar.classList.toggle('active');
@@ -32,7 +33,7 @@ window.onscroll = () =>{
 
 // 
 
-var swiper = new Swiper(".featured-slider", {
+var featuredswiper = new Swiper("featured-slider", {
   grabCursor: true,
   centeredSlides: true,  
   spaceBetween: 20,
@@ -58,7 +59,7 @@ var swiper = new Swiper(".featured-slider", {
   },
 });
 
-var swiper = new Swiper(".review-slider", {
+var reviewswiper = new Swiper(".review-slider", {
   grabCursor: true,
   centeredSlides: true,  
   spaceBetween: 20,
