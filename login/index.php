@@ -18,7 +18,7 @@
 <body>
   <div class="body-login">
     <div class="container-login">
-        <h2>Login User</h2>
+        <h2>Login Account</h2>
         <form action="process_login.php" method="post">
             <div class="form-grouplogin">
                 <label for="email">Username:</label>
@@ -33,10 +33,9 @@
                 <option value="admin">Admin</option>
                 <option value="user">User</option>
             </select>
-            <p> don't have an account <a href="../register/register.php">create one</a> </p>
+            <p> Don't have an account? <a href="../register/register.php">Create one</a> </p>
             <div class="form-grouplogin">
                 <button type="submit">Login</button>
-                <button><a href="index.php"> Back </a></button>
             </div>
         </form>
     </div>

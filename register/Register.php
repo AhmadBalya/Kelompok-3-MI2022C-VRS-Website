@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($insert_user) {
         echo "<script>alert('Registration successful. You can now login.');
-        document.location='../login/login.html';
+        document.location='../login/index.php';
         </script>";
     } else {
         echo "<script>alert('Registration failed. Please try again later.');
@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web | Vehicle Rental Service</title> 
-    <link rel="stylesheet" type="text/css" href="../assets/css/login.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/register.css">
   </head>
    
   
@@ -50,7 +50,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </div>
             <div class="form-group-register">
                 <button type="submit">Register</button>
-                <button><a href="./index.php"> Back </a></button>
+                <button><a href="../login/index.php"> Back </a></button>
             </div>
         </form>
     </div>
