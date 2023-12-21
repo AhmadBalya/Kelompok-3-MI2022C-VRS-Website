@@ -23,7 +23,7 @@
 <!--===============================================================================================-->	
 	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="./assets/css/login.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/login.css">
 	
 <!--===============================================================================================-->
 </head>
