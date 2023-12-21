@@ -50,7 +50,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </div>
             <div class="form-group-register">
                 <button type="submit">Register</button>
-                <button><a href="../index.html"> Back </a></button>
+                <button><a href="./index.php"> Back </a></button>
             </div>
         </form>
     </div>

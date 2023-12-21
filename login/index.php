@@ -36,7 +36,7 @@
             <p> don't have an account <a href="../register/register.php">create one</a> </p>
             <div class="form-grouplogin">
                 <button type="submit">Login</button>
-                <button><a href="../index.html"> Back </a></button>
+                <button><a href="index.php"> Back </a></button>
             </div>
         </form>
     </div>
