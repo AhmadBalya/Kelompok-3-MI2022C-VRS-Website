@@ -24,14 +24,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web | Vehicle Rental Service</title> 
-    <link rel="stylesheet" href="./assets/CSS/index.css">
-    <link rel="stylesheet" href="./assets/CSS/register.css">
     <div class="main-header">
         <div class="navbar-header">
             <div class="icon-header">
