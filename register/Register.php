@@ -32,19 +32,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web | Vehicle Rental Service</title> 
     <link rel="stylesheet" type="text/css" href="../assets/css/login.css">
-    <div class="main-header">
-        <div class="navbar-header">
-            <div class="icon-header">
-                <h2 class="logo-header">VRS</h2>
-            </div>
-            <div class="menu-header">
-                <ul class="header-up">
-                    <li><a href="TentangVRS.html">About Us</a></li> 
-                    <li><a href="KontakVRS.html">Kontak</a></li>
-                    <li><a href="ProfileOwner.html">Owner</a></li>
-                </ul>
-            </div>
-        </div> 
   </head>
    
   
