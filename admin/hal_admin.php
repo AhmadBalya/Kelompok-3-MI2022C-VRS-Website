@@ -189,7 +189,7 @@ while($data = mysqli_fetch_array($tampil)) :
 
   <!-- FORM -->
   <form method="POST" action="aksi_crud.php">
-  <input type="hidden" name="id" value="<?= $data['login_id']; ?>">
+  <input type="hidden" name="login_id" value="<?= $data['login_id']; ?>">
       <div class="modal-body">
 
   <h6 class="text-center">Apakah Anda Yakin Akan Menghapus Data ini?
